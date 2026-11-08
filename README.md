@@ -1,5 +1,7 @@
 # k-mer evidence and sequence contiguity in sorghum
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24056550.svg)](https://doi.org/10.5281/zenodo.24056550)
+
 This repository reproduces comparisons between pooled k-mer support, support within a read pair, support within one read, and an exact contiguous target match. It includes the derived counters for 663 selected target states in eight same-study holdout accessions, a selected-case sequence-signature census, and a fixed synthetic benchmark.
 
 The catalogue comparisons measure agreement between evidence criteria. They do not identify true genotypes or estimate a genomic false-positive rate. The exact criterion is implemented using literal string matching; this project does not introduce a new pattern-matching algorithm.
@@ -108,4 +110,4 @@ The repository contains analysis code and machine-readable inputs/results. Manus
 
 ## Release and citation
 
-Repository: https://github.com/EJSAHN/sorghum-kmer-evidence. The code is released under the MIT License (`LICENSE`). The archival DOI and citation are added at the first tagged release. Third-party source data retain their original terms. Scientific source lineage is recorded in `docs/code_provenance.json`; exact replay checks and measured runtimes are in `validation.json`.
+Repository: https://github.com/EJSAHN/sorghum-kmer-evidence. The code is released under the MIT License (`LICENSE`). Release v1.0.0 is archived at Zenodo (https://doi.org/10.5281/zenodo.24056550); citation metadata are in `CITATION.cff`. Third-party source data retain their original terms. Scientific source lineage is recorded in `docs/code_provenance.json`; exact replay checks and measured runtimes are in `validation.json`.

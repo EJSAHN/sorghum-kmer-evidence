@@ -2,6 +2,9 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite it as below."
 title: "sorghum-kmer-evidence: k-mer co-occurrence, length and fraction thresholds for target-sequence support in sorghum reads"
 type: software
+version: "1.0.0"
+date-released: "2026-11-08"
+doi: "10.5281/zenodo.24056550"
 license: MIT
 repository-code: "https://github.com/EJSAHN/sorghum-kmer-evidence"
 authors:
