@@ -1,0 +1,10 @@
+{
+  "counts_by_cell.csv.gz": "ff62ef3af158ef3fe1d6ed8364df437aa34167a1b14b41f344aa0c9128c56d48",
+  "generation_audit.csv.gz": "c9637f6f65d54bbdd024bf62a3fdabbcdde8388efa8e40fa9c2261f137125949",
+  "performance_by_stratum.csv.gz": "62665c10dcc85313fd338d119e0e8eaf5362aa2005d93963c5c95c8aefe6d682",
+  "primary_per_target.csv.gz": "1750b9f78b54d49228d2ffe227d7b624a6b005c7027e22cb1f4f75b6ffbdfca9",
+  "paired_method_comparisons.csv.gz": "19d32ee261bd6ba462784389db516a6e35068a22d47db8903c5438b302ad61d8",
+  "generating_templates.json": "055922def49c627a5178cb1457574536b3cf1a83d635da81b7f7ff1bb6d1654a",
+  "dilution_sampling_ceiling.csv.gz": "1889f47d7be77ffc3bf32e97cd896428fa22e872f98bba0c67b740367dc9e57c",
+  "support_unit_agreement.csv.gz": "63100d224b05d714e98e079188e7d91866a54e421f9e4fe14b03381c4a438013"
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": 2,
+  "version": "1.1.0",
+  "status": "PASS",
+  "validation_date": "2026-11-07",
+  "environment": {
+    "platform": "Linux x86_64",
+    "python": "3.13.18",
+    "native_compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+    "zlib_runtimes_tested": [
+      "zlib-ng 1.3.1 (default Python build)",
+      "zlib 1.3 (system library loaded with LD_PRELOAD)"
+    ],
+    "dependencies": "Python standard library; C++17 and zlib for optional scanner tests"
+  },
+  "hash_basis": "SHA-256 of decompressed table content. Compressed .gz bytes differ between zlib and zlib-ng and are recorded only for information.",
+  "unit_and_integration_tests": {
+    "passed": 71,
+    "failures": 0,
+    "skipped": 0,
+    "native_scanner_tests_included": 4
+  },
+  "catalogue_replay": {
+    "status": "PASS",
+    "input_files_verified": 17,
+    "tables": 15,
+    "elapsed_seconds_zlib_ng": 27.1,
+    "elapsed_seconds_zlib": 26.2,
+    "cells": 5304,
+    "common_fixed_k_cells": 5256,
+    "table_checks": [
+      {
+        "compressed_file_sha256": "c3973c144ec886766287a78b1cb6a498d4e9b6fb2a79bd88326c4672e69f18c0",
+        "content_sha256": "a3fc5829464a9630a5ad671379d32387f028ebb7c4551d05d13ee53cd0c4f886",
+        "file": "tables/native_evidence.csv.gz",
+        "rows": 63808
+      },
+      {
+        "compressed_file_sha256": "3e42aac4e6320b88b1c0d9337fe0b9ee689c231802e871770ec7280f61ece623",
+        "content_sha256": "8b1dcff1b3e2093c989de34602bbac7eb099b9eda6fc0ed8c677b746730bd75b",
+        "file": "tables/baseline_coverage.csv.gz",
+        "rows": 4641
+      },
+      {
+        "compressed_file_sha256": "3086ea0a9c28bd945133cf0589e32cb255eef15672641cec5f15ec5461c07778",
+        "content_sha256": "25e85c3745ef07622af78fd09f83855155e838fd42fdb7bb03429a96986e885f",
+        "file": "tables/full_catalog_calls.csv.gz",
+        "rows": 222480
+      },
+      {
+        "compressed_file_sha256": "9f16b1ade69a423d236cc8e207fa0d2d4d80c03e9a24fafba9b5aed8f73a5b2f",
+        "content_sha256": "80a196bff2302fab782e8cffc6320c1aac05ba7323f6baf408996d78c41ca118",
+        "file": "tables/baseline_summary.csv.gz",
+        "rows": 252
+      },
+      {
+        "compressed_file_sha256": "b936f8d307ed3532c2ffd7497be08c3a6be5092ff2def9e1fb1462a3252a6cd0",
+        "content_sha256": "cb920dc88dac8978e5679bda23271db0a3a8b2e74ceeadb59ca24abe9aea0043",
+        "file": "tables/count_equivalence.csv.gz",
+        "rows": 252
+      },
+      {
+        "compressed_file_sha256": "e8f533d5c9f8fa6c7a42fbd6b48b8703baab17f44eec381b18d04ce66205999f",
+        "content_sha256": "37ea1a16ae95de5849e0a0cd5424087a899d95b59951e12926274498fb97070e",
+        "file": "tables/residual_cases.csv.gz",
+        "rows": 1023
+      },
+      {
+        "compressed_file_sha256": "c12ef47966b49f1bf177b6b8bfc094720a83660dd70447af942273e09690ec98",
+        "content_sha256": "a73a4018a44c225e45eb12fe372f41c0461e34e457ccc86ef2769e41f0688d88",
+        "file": "tables/simple_rule_comparison.csv.gz",
+        "rows": 138
+      },
+      {
+        "compressed_file_sha256": "54f2029ba0456cded19f5c1977e7ec3372a7f452597def76f31143c7be75ab75",
+        "content_sha256": "cd52b8fcd46ef3828cf4749ef2667262a50917e630b2182e81ee1f8d08e5fa36",
+        "file": "tables/signature_coverage.csv.gz",
+        "rows": 5304
+      },
+      {
+        "compressed_file_sha256": "41905a15aa2a7d1c83605c8cf5934e78a4c26a8dd909b6d1649cb2b758c9faf8",
+        "content_sha256": "6ad4e82f3afe3faf34d043e8d675f9b304355b63a9a05cf77bfceda2b6db3330",
+        "file": "tables/selected_signature_sensitivity.csv.gz",
+        "rows": 84
+      },
+      {
+        "compressed_file_sha256": "0fbb5ff8cd9eba8e180a57f0eac076bf2dae0e32713dee84fe4c669e4b50b2cc",
+        "content_sha256": "17c64131384b26fc18ec941e20786a1b84707e2503221b1064240ea5f8df251c",
+        "file": "tables/selected_case_baselines.csv.gz",
+        "rows": 2520
+      },
+      {
+        "compressed_file_sha256": "2dc91ff8e147896b12784d6d5a66f9c01cf901668d885b252c9bf97e72779f5f",
+        "content_sha256": "06f60236d9abef234c9a7822cbb59cc85746c8a05caa5adacdc5154e9779afbe",
+        "file": "tables/incremental_case_context.csv.gz",
+        "rows": 26
+      },
+      {
+        "compressed_file_sha256": "8f621d637d05b6b604955488c50bf956e65b251a882bdcbc4947d5bca175e2d8",
+        "content_sha256": "ed48f0dd716d863c941d3fdfae3230e2c0126c896bf6eba3c5b0d8a2cbcd7813",
+        "file": "tables/simulation_context.csv.gz",
+        "rows": 1368
+      },
+      {
+        "compressed_file_sha256": "c38e6bd4d212c466b866942b42e95697475b58b5bf48dc4f77e2d3dcc980f439",
+        "content_sha256": "8db3acf9bbeb7b846070f7a3945445175660c0c68de933cbf785318a4ef31a74",
+        "file": "tables/primary_comparison.csv.gz",
+        "rows": 14
+      },
+      {
+        "compressed_file_sha256": "6ff28482feb2da2959a9d6f956bb86f8d9c7f049e1eb53abcdef9f5b2a98d20c",
+        "content_sha256": "084c3a8e65c3c64128675731ff474347b54b817acd43a49732d1322cfaf0199d",
+        "file": "tables/fraction_rule.csv.gz",
+        "rows": 588
+      },
+      {
+        "compressed_file_sha256": "e3633c318ddae5aa2ff65058b0c5bb35417da43472f89d49fbfb4f7a16b22836",
+        "content_sha256": "434ce817e932f3137506b52ce0b74b0315e53511fdb377c5264abcd8aa017079",
+        "file": "tables/target_repeat_profile.csv.gz",
+        "rows": 663
+      }
+    ]
+  },
+  "synthetic_replay": {
+    "status": "PASS",
+    "simulation_cells": 53280,
+    "read_pairs": 1065600,
+    "elapsed_seconds_zlib_ng": 116.8,
+    "elapsed_seconds_zlib": 114.6,
+    "file_checks": [
+      {
+        "content_sha256": "ff62ef3af158ef3fe1d6ed8364df437aa34167a1b14b41f344aa0c9128c56d48",
+        "file": "analysis/counts_by_cell.csv.gz"
+      },
+      {
+        "content_sha256": "c9637f6f65d54bbdd024bf62a3fdabbcdde8388efa8e40fa9c2261f137125949",
+        "file": "analysis/generation_audit.csv.gz"
+      },
+      {
+        "content_sha256": "62665c10dcc85313fd338d119e0e8eaf5362aa2005d93963c5c95c8aefe6d682",
+        "file": "analysis/performance_by_stratum.csv.gz"
+      },
+      {
+        "content_sha256": "1750b9f78b54d49228d2ffe227d7b624a6b005c7027e22cb1f4f75b6ffbdfca9",
+        "file": "analysis/primary_per_target.csv.gz"
+      },
+      {
+        "content_sha256": "19d32ee261bd6ba462784389db516a6e35068a22d47db8903c5438b302ad61d8",
+        "file": "analysis/paired_method_comparisons.csv.gz"
+      },
+      {
+        "content_sha256": "055922def49c627a5178cb1457574536b3cf1a83d635da81b7f7ff1bb6d1654a",
+        "file": "analysis/generating_templates.json"
+      },
+      {
+        "content_sha256": "1889f47d7be77ffc3bf32e97cd896428fa22e872f98bba0c67b740367dc9e57c",
+        "file": "analysis/dilution_sampling_ceiling.csv.gz"
+      },
+      {
+        "content_sha256": "63100d224b05d714e98e079188e7d91866a54e421f9e4fe14b03381c4a438013",
+        "file": "analysis/support_unit_agreement.csv.gz"
+      }
+    ]
+  },
+  "unchanged_scientific_scope": "Seeds, protocols, inputs, detector, simulation generator and native scanner source are unchanged. The 13 original catalogue tables and 6 original benchmark outputs have the same decompressed content as the Ceres results. New outputs: fraction_rule, target_repeat_profile, dilution_sampling_ceiling, support_unit_agreement.",
+  "not_performed": [
+    "Original FASTQ rescan",
+    "Windows or Ceres execution of this release"
+  ]
+}

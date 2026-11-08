@@ -1,0 +1,2 @@
+# Python 3.9 or later. No third-party Python packages are required.
+# Optional native FASTQ scanning: a C++17 compiler and zlib development headers.

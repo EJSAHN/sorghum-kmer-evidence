@@ -1,0 +1,54 @@
+{
+  "execution_release": "v3",
+  "source_package_sha256": "abdecb12b4b249493f9c73963fb2da3e7b273507b22951cc38fc275ea55967fa",
+  "scope": "Independent full fixed-grid execution during v3 review; historical evidence, not a new v4 benchmark execution.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "zlib_compile": "1.3.2",
+    "zlib_runtime": "1.3.2",
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0"
+  },
+  "synthetic_replay": {
+    "elapsed_seconds": 212.0522974259984,
+    "files": [
+      {
+        "content_sha256": "ff62ef3af158ef3fe1d6ed8364df437aa34167a1b14b41f344aa0c9128c56d48",
+        "file": "analysis/counts_by_cell.csv.gz"
+      },
+      {
+        "content_sha256": "c9637f6f65d54bbdd024bf62a3fdabbcdde8388efa8e40fa9c2261f137125949",
+        "file": "analysis/generation_audit.csv.gz"
+      },
+      {
+        "content_sha256": "62665c10dcc85313fd338d119e0e8eaf5362aa2005d93963c5c95c8aefe6d682",
+        "file": "analysis/performance_by_stratum.csv.gz"
+      },
+      {
+        "content_sha256": "1750b9f78b54d49228d2ffe227d7b624a6b005c7027e22cb1f4f75b6ffbdfca9",
+        "file": "analysis/primary_per_target.csv.gz"
+      },
+      {
+        "content_sha256": "19d32ee261bd6ba462784389db516a6e35068a22d47db8903c5438b302ad61d8",
+        "file": "analysis/paired_method_comparisons.csv.gz"
+      },
+      {
+        "content_sha256": "055922def49c627a5178cb1457574536b3cf1a83d635da81b7f7ff1bb6d1654a",
+        "file": "analysis/generating_templates.json"
+      },
+      {
+        "content_sha256": "1889f47d7be77ffc3bf32e97cd896428fa22e872f98bba0c67b740367dc9e57c",
+        "file": "analysis/dilution_sampling_ceiling.csv.gz"
+      },
+      {
+        "content_sha256": "63100d224b05d714e98e079188e7d91866a54e421f9e4fe14b03381c4a438013",
+        "file": "analysis/support_unit_agreement.csv.gz"
+      }
+    ],
+    "hash_basis": "SHA-256 of decompressed content",
+    "scope": "Full fixed simulation grid",
+    "status": "PASS"
+  },
+  "simulation_cells": 53280,
+  "read_pairs": 1065600
+}

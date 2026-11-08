@@ -1,0 +1,357 @@
+{
+  "anchor_pair_catalog_construction": {
+    "anchor_complexity_filters": {
+      "gc_fraction_max": 0.75,
+      "gc_fraction_min": 0.25,
+      "maximum_homopolymer_length": 6,
+      "minimum_shannon_entropy_bits": 1.5
+    },
+    "anchor_k": 31,
+    "candidate_anchor_sequences": 8667,
+    "candidate_pairs_after_cross_run_deduplication": 4345,
+    "canonicalization": "min(sequence,reverse_complement(sequence)); sort distinct canonical anchors as a<b.",
+    "centered_span_length": 82,
+    "discovery_pairs_per_run": 1000,
+    "files": [
+      "data/frozen_pairs595.csv",
+      "data/frozen_patterns1190.csv"
+    ],
+    "full_database_filters": "Exclude pair if either anchor has stored count>200 in any discovery accession; require both anchors count>=10 in at least one accession.",
+    "genome_wide_random_sampling": false,
+    "initial_gap_bases": 20,
+    "left_start_zero_based": "(read_length-82)//2",
+    "mask": "4-bit mask in discovery-accession order; each bit requires both anchors count>=10 in that accession.",
+    "mates_separately": true,
+    "per_mask_selection": "For masks1..15 in ascending order, retain at most64pairs by(rank,a,b). Pair IDs follow this concatenation; pattern IDs follow sorted unique selected sequences.",
+    "per_run_ranking": "SHA256(seed + \"|\" + a + \"|\" + b); ascending(rank,a,b), keep at most128 unique pairs per run; first occurrence retains provenance.",
+    "right_start_zero_based": "left_start+51",
+    "seed": "sorghum-sequence-grammar-code6-v1",
+    "selected_anchor_sequences": 1190,
+    "selected_pairs": 595,
+    "source_stage": "CODE6",
+    "whole_span_quality": "All82bases must be ACGT and Phred+33>=20."
+  },
+  "authoritative_web_sources_checked": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9544330/",
+    "https://datadryad.org/dataset/doi:10.5061/dryad.3j9kd51w9",
+    "https://ena-browser-docs.readthedocs.io/en/latest/about/policies.html",
+    "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000003195.3/"
+  ],
+  "automaton_implementation": {
+    "algorithm": "Established Aho-Corasick exact multiple-pattern matching, implemented in C++17.",
+    "construction": "Insert each canonical query and its distinct reverse complement into a four-base trie; build breadth-first failure links and propagate output lists; complete transition table with failure fallback.",
+    "counters": "Per-read and per-physical-read-pair generation markers prevent repeated occurrences or both mates double counting a query. Group completeness is the set of all required query IDs.",
+    "learned_grammar": false,
+    "minimum_quality": 20,
+    "new_automata_theory_claim": false,
+    "quality_encoding": "Phred+33",
+    "scan": "Read bases once; reset state on non-ACGT; output every exact occurrence including overlaps. Track last position below ASCII53 (Phred20) to mark every emitted window Q20 or raw-only.",
+    "source": "CODE19/src/panel_scan.cpp, class Automaton",
+    "speed_superiority_claim": false,
+    "validation_scope": "Whole-run count invariants and EOF/read/base totals; direct independent oracle on declared bounded validation prefixes and retained examples, not a second full-production scan."
+  },
+  "cohort_selection": {
+    "algorithm": "Sort the hexadecimal SHA256 of UTF-8 seed + \"|\" + PI accession in ascending order; discovery ranks1-4; holdout ranks5-12.",
+    "candidate_count": 279,
+    "discovery_accessions": [
+      "PI609456",
+      "PI656071",
+      "PI656011",
+      "PI533863"
+    ],
+    "discovery_compressed_bytes": 61731140022,
+    "discovery_files": 68,
+    "discovery_reads": 829438520,
+    "discovery_runs": 34,
+    "genetically_unrelated_established": false,
+    "holdout_accessions": [
+      "PI576349",
+      "PI576373",
+      "PI642998",
+      "PI585295",
+      "PI533866",
+      "PI576339",
+      "PI576437",
+      "PI656075"
+    ],
+    "holdout_bases": 266102059650,
+    "holdout_compressed_bytes": 129991655718,
+    "holdout_files": 142,
+    "holdout_pairs": 886811972,
+    "holdout_reads": 1773623944,
+    "holdout_runs": 71,
+    "independent_study": false,
+    "same_study_holdout": true,
+    "sample_table": "data/selected_accessions12.csv",
+    "seed": "sorghum-sequence-grammar-code2-v1"
+  },
+  "curated_provenance_files": [
+    {
+      "file": "data/candidate_ranking279.csv",
+      "sha256": "9b92da3486f314fb578abc9a8f35b79edd47fc881660b1005f712ed1f23eb4a2",
+      "size_bytes": 34890
+    },
+    {
+      "file": "data/discovery_sequence_states663.csv",
+      "sha256": "f8a56a2144022099cd1ace04e45570a4bf92ad68dda845f357e58f0cc373b74d",
+      "size_bytes": 657802
+    },
+    {
+      "file": "data/ena_fastq_manifest210.csv",
+      "sha256": "fea6bf3c05590689dff0c9f0a9af78b270ad6118c606204d522346319c3a4639",
+      "size_bytes": 37880
+    },
+    {
+      "file": "data/frozen_pairs595.csv",
+      "sha256": "2a2f4bad1b69769cc0f85effad113d7bca29c50b5f71bc2bc177c687d937e3bf",
+      "size_bytes": 97383
+    },
+    {
+      "file": "data/frozen_patterns1190.csv",
+      "sha256": "b20111dffa25e15a95d6056169802c54e0646aa0197417e1f649abd128464fd8",
+      "size_bytes": 61917
+    },
+    {
+      "file": "data/selected_accessions12.csv",
+      "sha256": "ef7ebb7c054d59f96032c13f105bb54eb27d203ee7e52d77f506b9990e959fef",
+      "size_bytes": 704
+    }
+  ],
+  "discovery_kmer_counting": {
+    "canonical": true,
+    "counter_saturation": 65535,
+    "input": "Complete unmasked discovery FASTQ files",
+    "k": 31,
+    "maximum_count_filter": 1000000000,
+    "minimum_retained_count": 3,
+    "software": "KMC",
+    "strict_memory": true,
+    "version": "3.2.4",
+    "warning": "Stored zero in ci3 databases means raw multiplicity may be0,1or2. Full-sample count filtering includes discovery-prefix reads and is not an independent validation split."
+  },
+  "evidence_definitions": {
+    "count_hierarchy": "exact_span <= same_read <= same_pair <= pooled",
+    "discovery_signature_difference": "Earlier CODE11 diagnostic signatures used a strand-normalized paired-string representation; they are not interchanged with ordered CODE20-25 signatures.",
+    "exact_span": "Number of pairs with at least one mate containing target or reverse complement as a contiguous literal match.",
+    "pooled": "Minimum across distinct required words of the per-word supporting-read-pair count; words may occur in different pairs.",
+    "primary": "Q20, at least2physical read pairs for full catalog; thresholds1,2,3 bothraw/Q20 retained.",
+    "same_pair": "Number of pairs whose mate union contains every required word.",
+    "same_read": "Number of pairs with at least one mate containing every required word; qualifying pair counted once.",
+    "selected_case_signature": "For60selecteddiscrepancycells only: SHA256(uppercaseR1 + newline + uppercaseR2 + newline); preservesmateorder and is not molecular deduplication. Raw/Q20 and thresholds1,2,3 retained."
+  },
+  "historical_eligibility_dataset": {
+    "candidate_count": 279,
+    "candidate_ranking_file": "data/candidate_ranking279.csv",
+    "citation": "Mahamkali SS, Mangal H, Shrestha N, Xu G, Schnable JC, Yang J. Integrating SNP, RNASeq, and phenotypic data from sorghum association and diversity panels for comprehensive genomic analysis. Dryad; 2026. doi:10.5061/dryad.3j9kd51w9.",
+    "doi": "10.5061/dryad.3j9kd51w9",
+    "eligibility_reconstruction_scope": "Original eligible table and deterministic ranking are retained. Eligibility depends on historical phenotype identity/design checks; this package does not replace that process with an all-400-SAP claim.",
+    "original_candidate_table_sha256": "c705d125032ef82c2ab559eddeda3511450b9dc47ead60d7056a169075e7ea2b",
+    "phenotype_tables_redistributed": false,
+    "required_availability_cohorts": [
+      {
+        "source_file": "1.SAP_2020_Field_Phenotype.zip",
+        "trait_id": "days_to_bloom"
+      },
+      {
+        "source_file": "2.SDP_SAP_f2021_field_phenotype.zip",
+        "trait_id": "days_to_flower"
+      },
+      {
+        "source_file": "3.SAP_2022_field_phenotype_Alabama_Location.zip",
+        "trait_id": "days_to_heading"
+      }
+    ],
+    "role": "Historical eligibility by identifier/design and paired HN/LN phenotype availability only; no phenotype values used to rank accessions or association tests in this sequence-evidence study.",
+    "url": "https://datadryad.org/dataset/doi:10.5061/dryad.3j9kd51w9"
+  },
+  "holdout_query_construction": {
+    "common_k81_eligible_cells": 5256,
+    "eligibility": "k < target span length",
+    "fixed_k": [
+      31,
+      41,
+      51,
+      61,
+      71,
+      81
+    ],
+    "k81_exclusions": {
+      "excluded_cells": 48,
+      "states_length78": 2,
+      "states_length81": 4
+    },
+    "membership_rows": 107536,
+    "near_full": "k=span_length-1",
+    "near_full_alias": "For647states of length82, near_full and k81 share the same native group; report labels do not create independent evidence.",
+    "query_sequences": 105983,
+    "state_accession_cells_full": 5304,
+    "unique_state_k_groups": 3988,
+    "word_set": "All distinct canonical k-windows of a target; order, spacing and within-target multiplicity not required by word-set rules."
+  },
+  "methods_source_files": [
+    {
+      "sha256": "38f0b6f8aebc0748095ce02cd0a1a2b0037612db3f07b4ce18813664cd87e7e3",
+      "source": "CODE6_CERES_v1.0.0/src/read_panel.py"
+    },
+    {
+      "sha256": "bc1b71127aa7d7595cd775f56c8789aef83b182130f961312d05fc2a16539f3c",
+      "source": "CODE6_CERES_v1.0.0/src/select_candidates.py"
+    },
+    {
+      "sha256": "8fd7c54d979ef4a71b60039df006b7cfc1e4d1e9b779f70d7fd9fb5776cdebc9",
+      "source": "CODE8_CERES_v1.0.0/src/scan_catalog.cpp"
+    },
+    {
+      "sha256": "73331c4fc1634e9d3870078a6908682265ef520519ccfab8d5428282b263b03b",
+      "source": "CODE11_CERES_v1.0.0/src/code11_input.py"
+    },
+    {
+      "sha256": "cafa4fb4312d0d476dec26ec7f2a80114e6bb4188a7db7c0223ead3695859feb",
+      "source": "CODE11_CERES_v1.0.0/src/representation_benchmark.py"
+    },
+    {
+      "sha256": "54d79dca4529bab2ad7eeb28e7364af6160379de08cbf95a515eb4b5038f8a7d",
+      "source": "CODE16_17_CERES_v1.0.0/src/code16_input.py"
+    },
+    {
+      "sha256": "77550ef70cdfb2bff39b2ab31a528b3b749d9013af390f35cd425a3057f4f0ec",
+      "source": "CODE19_CERES_v1.0.5/src/panel_scan.cpp"
+    },
+    {
+      "sha256": "194c1c39d3f7c5a7cd2ed285c477f80ea1cc6d09e451740d08de53f93212b575",
+      "source": "CODE19_CERES_v1.0.5/src/code19_input.py"
+    },
+    {
+      "sha256": "a472e5e22636f37142ddd47f968f00ba9c899354f620bc73b7a8f44f9bcc5ac9",
+      "source": "CODE20_CERES_v1.0.0/src/code20_analysis.py"
+    }
+  ],
+  "observed_state_catalog": {
+    "anchor_matching": "Both orientations of all selected1190canonical31mer anchors.",
+    "anchor_pairs": 595,
+    "events": "Within a single read, nonoverlapping frozen anchor pairs with gap0..80; every nucleotide of the anchor-to-anchor span must be ACGT and Q20. No mate-spanning distance is inferred.",
+    "full_discovery_read_scan": true,
+    "historical_Q20_retained_support_is_not_raw_whole_FASTQ_truth": true,
+    "independent_locus_count": false,
+    "normalization": "Compare forward tuple(left_anchor_id,left_strand,right_anchor_id,right_strand) to reverse tuple(right_anchor_id,flipped_right_strand,left_anchor_id,flipped_left_strand). Choose lexicographically smaller tuple; reverse-complement span and reverse quality string when reverse tuple wins.",
+    "observed_maximum_span": 97,
+    "observed_minimum_span": 78,
+    "quality_events": 14251,
+    "retained_paired_records": 13550,
+    "source_stages": [
+      "CODE8 full FASTQ scan",
+      "CODE11 exact representation states",
+      "CODE16 complete-state expansion",
+      "CODE19 frozen same-study holdout"
+    ],
+    "state_definition": [
+      "pair_id",
+      "normalized_anchor_orientation",
+      "gap",
+      "normalized_anchor_to_anchor_sequence"
+    ],
+    "state_file": "data/discovery_sequence_states663.csv",
+    "state_identifier": "S + SHA256 of compact JSON serialization of the four-element state tuple (ensure_ascii=True,separators=(comma,colon)).",
+    "states": 663,
+    "validated_CODE16_to_CODE19_state_tuple_equality": true
+  },
+  "original_sequencing_study": {
+    "article_license": "CC BY 4.0 (article text); do not relabel sequence records with the article license.",
+    "citation": "Boatwright JL, Sapkota S, Jin H, Schnable JC, Brenton Z, Boyles R, Kresovich S. Sorghum Association Panel whole-genome sequencing establishes cornerstone resource for dissecting genomic diversity. Plant J. 2022;111(3):888-904.",
+    "doi": "10.1111/tpj.15853",
+    "ena_project": "PRJEB50066",
+    "ena_study": "ERP134618",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB50066",
+    "frozen_holdout_metadata_classifications": {
+      "instrument_model": "Illumina NovaSeq 6000",
+      "library_layout": "PAIRED",
+      "library_source": "GENOMIC",
+      "library_strategy": "WGS"
+    },
+    "full_study_fastq_downloaded_for_this_release": false,
+    "pmcid": "PMC9544330",
+    "pmid": "35653240",
+    "raw_data_reuse_policy_url": "https://ena-browser-docs.readthedocs.io/en/latest/about/policies.html",
+    "raw_data_reuse_statement": "ENA/INSDC policy provides free unrestricted access and redistribution of sequence records with appropriate source citation. No whole FASTQ files are redistributed in this package.",
+    "raw_fastq_manifest": "data/ena_fastq_manifest210.csv",
+    "source_library_description": "Original article describes paired-end Illumina NovaSeq 2x150-bp WGS from leaf DNA.",
+    "source_panel_accessions": 400,
+    "species": "Sorghum bicolor",
+    "tax_id": 4558,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9544330/"
+  },
+  "reference_context": {
+    "assembly_accession": "GCF_000003195.3",
+    "assembly_name": "Sorghum_bicolor_NCBIv3",
+    "assembly_report_md5": "5a30c981dfdf65fa585bd0bb487395ea",
+    "bases": 709344700,
+    "contigs": 869,
+    "download_base": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/003/195/GCF_000003195.3_Sorghum_bicolor_NCBIv3/",
+    "fasta_filename": "GCF_000003195.3_Sorghum_bicolor_NCBIv3_genomic.fna.gz",
+    "fasta_md5": "a2dee4c2235e9deac2cd512eaea24407",
+    "fasta_sha256": "72c2890ef4021483e18b018655038bb25ed87da67cfc555c308f7bd094a96c98",
+    "fasta_size_bytes": 206099295,
+    "gff_md5": "ebb2700a59644a3cee390882ab696977",
+    "minimap2": {
+      "common_options": [
+        "-x",
+        "sr",
+        "-a",
+        "--secondary=yes",
+        "-N",
+        "50",
+        "-p",
+        "0.5",
+        "--MD",
+        "--cs=long",
+        "-Y",
+        "--secondary-seq",
+        "--seed",
+        "11",
+        "-t",
+        "2"
+      ],
+      "index_options": [
+        "-x",
+        "sr",
+        "-I",
+        "4G"
+      ],
+      "limitation": "At most50reportedsecondaryalignments and heuristic score ratio0.5; not exhaustiveuniquenessproof.2000bp bound is a setting, notmeasuredlibraryinsert.",
+      "paired_extra": [
+        "-F",
+        "2000"
+      ],
+      "single_mate_extra": [
+        "--frag=no"
+      ],
+      "version": "2.31-r1302"
+    },
+    "scope": "Reference-only context; no full reference redistributed; no genotype or locus uniqueness assertion. Pinned assembly identifier rather than an inferred Phytozome version name.",
+    "url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000003195.3/"
+  },
+  "release_reproduction_scope": {
+    "GWAS": false,
+    "general_real_data_false_positive_rate": false,
+    "genomic_truth": false,
+    "independent_study_validation": false,
+    "new_FASTQ_downloads_in_release": false,
+    "public_runner": "Reaggregate full catalog count tables, selected signature table and full synthetic performance table.",
+    "raw_reads_not_redistributed": true
+  },
+  "representative_cases": {
+    "contents": "Derived target/observed segment FASTA, event coordinates, case metrics and file hashes; no full raw FASTQs. Two-string phased case represents inferred observed-read-supported strings, not independent validated genomic haplotypes.",
+    "count": 4,
+    "public_directory": "../04_public_repository/data/derived/representative_cases",
+    "selection": "Purposive explanatory examples from audited60-case ledger, not prevalence estimates."
+  },
+  "schema_version": 1,
+  "scope": "Recovery of executed methods and frozen public data identities for manuscript v1; no new sequencing analysis.",
+  "source_identities": {
+    "CODE16_17_package_sha256": "a9fc7adca696c9111e5ea20c0db3e08686f909d0819573d4845a93d0509c8150",
+    "CODE27_actual_Ceres_review_sha256": "5c8bd50904e97c088b9a6930c22a88822c1180a0adefe5c80f8ceca502a12b21",
+    "CODE2_review_sha256": "6d90626678250fa42b404c05e920ca3e6f99894094461382c0a43ccd9e6738e3",
+    "CODE4_review_sha256": "4e1f55cd287aa16607baf68113a44df6fc6ffa7312274dd3bc7754a5b58c6fa0",
+    "frozen_CODE19_input_sha256": "d6a91ccd246a6b59cc4650e33ac90c0a3e9a0d72c8bd39cb05b1d776e6e2ab58"
+  }
+}

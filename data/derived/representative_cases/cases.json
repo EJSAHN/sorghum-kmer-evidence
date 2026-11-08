@@ -1,0 +1,1416 @@
+{
+  "cases": [
+    {
+      "case_id": "A",
+      "count_scope": "Complete selected-cell census from CODE24; shown sequence examples have a separate scope.",
+      "counts": {
+        "q20": {
+          "pairs": {
+            "exact": 1,
+            "pooled": 9,
+            "same_pair": 1,
+            "same_read": 1
+          },
+          "signatures": {
+            "exact": 1,
+            "pooled": 9,
+            "same_pair": 1,
+            "same_read": 1
+          }
+        },
+        "raw": {
+          "pairs": {
+            "exact": 3,
+            "pooled": 13,
+            "same_pair": 3,
+            "same_read": 3
+          },
+          "signatures": {
+            "exact": 3,
+            "pooled": 13,
+            "same_pair": 3,
+            "same_read": 3
+          }
+        }
+      },
+      "display_scope": "All three exact-hit traces for this selected cell; complete-cell counters remain separate from the displayed spans.",
+      "events": [
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 51,
+          "observed_start0": 50,
+          "observed_text": "T",
+          "sequence_id": "A_read_2",
+          "target_end0": 51,
+          "target_start0": 50,
+          "target_text": "T",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 5,
+          "observed_start0": 4,
+          "observed_text": "C",
+          "sequence_id": "A_read_3",
+          "target_end0": 5,
+          "target_start0": 4,
+          "target_text": "C",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 10,
+          "observed_start0": 9,
+          "observed_text": "G",
+          "sequence_id": "A_read_3",
+          "target_end0": 10,
+          "target_start0": 9,
+          "target_text": "G",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 22,
+          "observed_start0": 21,
+          "observed_text": "C",
+          "sequence_id": "A_read_3",
+          "target_end0": 22,
+          "target_start0": 21,
+          "target_text": "C",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 25,
+          "observed_start0": 24,
+          "observed_text": "G",
+          "sequence_id": "A_read_3",
+          "target_end0": 25,
+          "target_start0": 24,
+          "target_text": "G",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 26,
+          "observed_start0": 25,
+          "observed_text": "C",
+          "sequence_id": "A_read_3",
+          "target_end0": 26,
+          "target_start0": 25,
+          "target_text": "C",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 32,
+          "observed_start0": 31,
+          "observed_text": "A",
+          "sequence_id": "A_read_3",
+          "target_end0": 32,
+          "target_start0": 31,
+          "target_text": "A",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 34,
+          "observed_start0": 33,
+          "observed_text": "A",
+          "sequence_id": "A_read_3",
+          "target_end0": 34,
+          "target_start0": 33,
+          "target_text": "A",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 40,
+          "observed_start0": 39,
+          "observed_text": "G",
+          "sequence_id": "A_read_3",
+          "target_end0": 40,
+          "target_start0": 39,
+          "target_text": "G",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 54,
+          "observed_start0": 53,
+          "observed_text": "C",
+          "sequence_id": "A_read_3",
+          "target_end0": 54,
+          "target_start0": 53,
+          "target_text": "C",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 60,
+          "observed_start0": 59,
+          "observed_text": "G",
+          "sequence_id": "A_read_3",
+          "target_end0": 60,
+          "target_start0": 59,
+          "target_text": "G",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 66,
+          "observed_start0": 65,
+          "observed_text": "C",
+          "sequence_id": "A_read_3",
+          "target_end0": 66,
+          "target_start0": 65,
+          "target_text": "C",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 73,
+          "observed_start0": 72,
+          "observed_text": "G",
+          "sequence_id": "A_read_3",
+          "target_end0": 73,
+          "target_start0": 72,
+          "target_text": "G",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 74,
+          "observed_start0": 73,
+          "observed_text": "T",
+          "sequence_id": "A_read_3",
+          "target_end0": 74,
+          "target_start0": 73,
+          "target_text": "T",
+          "value": 11
+        },
+        {
+          "event_type": "PHRED_BELOW_20",
+          "observed_end0": 78,
+          "observed_start0": 77,
+          "observed_text": "C",
+          "sequence_id": "A_read_3",
+          "target_end0": 78,
+          "target_start0": 77,
+          "target_text": "C",
+          "value": 11
+        }
+      ],
+      "genomic_absence_inferred": false,
+      "genotype_called": false,
+      "interpretation": "The exact target string is observed in three distinct retained read-pair signatures. Two exact-hit spans contain a Phred score below 20, leaving one Q20 signature, below the two-signature threshold. This is a quality/support effect, not evidence that the target is absent from the genome.",
+      "pair_id": "P000508",
+      "pi_accession": "PI642998",
+      "placement_status": "ONE_REFERENCE_WINDOW_CAN_COVER_WORD_SET",
+      "primary_evidence_label": "RAW_EXACT_SUPPORT_LOST_AT_Q20_THRESHOLD",
+      "selection_rationale": "Selected to show all three exact-hit traces with independently retrievable retained reads, including the single Q20-passing signature.",
+      "selection_scope": "Purposive existing-case illustration, not a representative prevalence sample.",
+      "sequences": [
+        {
+          "aligned_sequence": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "aligned_target": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "kind": "OBSERVED_EXACT_READ_SUBSTRING",
+          "label": "ERR8056500__1778337/R2",
+          "mate": 2,
+          "minimum_phred": 25,
+          "orientation_to_target": "-",
+          "phred_values": [
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            25,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            25,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            25,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37
+          ],
+          "q20": true,
+          "query_id": "ERR8056500__1778337",
+          "read_end0": 118,
+          "read_quality_ascii": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+          "read_sequence": "AAGGAGCTTAAGTTATTCATGACCGCTTGTGATGGCTGAAGGCAACCAACAGGTGGTGCTCGAAGCAAGTTTGCATTGCAGGAGTTTCCTGAGCTCGAAGCAAGTTTGCATTGGAGGAGTTTCCTGAGCTTTCAAGACAACGAGGCGCAC",
+          "read_start0": 36,
+          "read_substring_original_orientation": "TGAAGGCAACCAACAGGTGGTGCTCGAAGCAAGTTTGCATTGCAGGAGTTTCCTGAGCTCGAAGCAAGTTTGCATTGGAGGA",
+          "retained_read_sources": [
+            {
+              "file": "scan/ERR8056500/recruited_R1.fastq.gz",
+              "selector": {
+                "query_id": "ERR8056500__1778337"
+              },
+              "source_key": "code22"
+            },
+            {
+              "file": "scan/ERR8056500/recruited_R2.fastq.gz",
+              "selector": {
+                "query_id": "ERR8056500__1778337"
+              },
+              "source_key": "code22"
+            }
+          ],
+          "run_accession": "ERR8056500",
+          "sequence": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "sequence_id": "A_read_1",
+          "sequence_pair_sha256": "6b896e5ea8770ed096070d475ea5d7e2b80e66c7f7e1c7f23e1bd145473bdba1",
+          "source": {
+            "file": "analysis/accessions/PI642998/exact_hit_trace.csv.gz",
+            "selector": {
+              "mate": "2",
+              "query_id": "ERR8056500__1778337"
+            },
+            "source_key": "code24"
+          }
+        },
+        {
+          "aligned_sequence": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "aligned_target": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "kind": "OBSERVED_EXACT_READ_SUBSTRING",
+          "label": "ERR8056500__5968541/R1",
+          "mate": 1,
+          "minimum_phred": 11,
+          "orientation_to_target": "-",
+          "phred_values": [
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            25,
+            37,
+            37,
+            37,
+            37,
+            25,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            25,
+            37,
+            37,
+            11,
+            37,
+            37,
+            37,
+            25,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37
+          ],
+          "q20": false,
+          "query_id": "ERR8056500__5968541",
+          "read_end0": 94,
+          "read_quality_ascii": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFF,FF:FFFFFFFFFFFFFFFFFFFFFFFFFFFFF:FFFF:FFFFFFFFFFFFFFFFFFFFFFFF:FFFFFFFF:FFFFFFFFFFFFFF:FFFFFFFFFFFF:FFFFF,",
+          "read_sequence": "GCTTGTGATGGCTGAAGGCAACCAACAGGTGGTGCTCGAAGCAAGTTTGCATTGCAGGAGTTTCCTGAGCTCGAAGCAAGTTTGCATTGGAGGAGTTTCCTGAGCTTTCAAGACAACGAGGCGCACGGATAGATTAAATCGCATGTGGCA",
+          "read_start0": 12,
+          "read_substring_original_orientation": "TGAAGGCAACCAACAGGTGGTGCTCGAAGCAAGTTTGCATTGCAGGAGTTTCCTGAGCTCGAAGCAAGTTTGCATTGGAGGA",
+          "retained_read_sources": [
+            {
+              "file": "scan/ERR8056500/recruited_R1.fastq.gz",
+              "selector": {
+                "query_id": "ERR8056500__5968541"
+              },
+              "source_key": "code22"
+            },
+            {
+              "file": "scan/ERR8056500/recruited_R2.fastq.gz",
+              "selector": {
+                "query_id": "ERR8056500__5968541"
+              },
+              "source_key": "code22"
+            }
+          ],
+          "run_accession": "ERR8056500",
+          "sequence": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "sequence_id": "A_read_2",
+          "sequence_pair_sha256": "9529efa98cde9814fcf5d350296e8c94e5ded993b24d432f2ce0200f1c9ecc8e",
+          "source": {
+            "file": "analysis/accessions/PI642998/exact_hit_trace.csv.gz",
+            "selector": {
+              "mate": "1",
+              "query_id": "ERR8056500__5968541"
+            },
+            "source_key": "code24"
+          }
+        },
+        {
+          "aligned_sequence": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "aligned_target": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "kind": "OBSERVED_EXACT_READ_SUBSTRING",
+          "label": "ERR8170204__5703628/R2",
+          "mate": 2,
+          "minimum_phred": 11,
+          "orientation_to_target": "-",
+          "phred_values": [
+            37,
+            37,
+            37,
+            37,
+            11,
+            37,
+            37,
+            25,
+            37,
+            11,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            25,
+            37,
+            37,
+            37,
+            37,
+            11,
+            37,
+            37,
+            11,
+            11,
+            25,
+            37,
+            37,
+            37,
+            37,
+            11,
+            37,
+            11,
+            37,
+            37,
+            37,
+            37,
+            37,
+            11,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            25,
+            25,
+            37,
+            37,
+            11,
+            37,
+            37,
+            37,
+            37,
+            37,
+            11,
+            25,
+            37,
+            37,
+            37,
+            25,
+            11,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            11,
+            11,
+            37,
+            37,
+            37,
+            11,
+            37,
+            37,
+            37,
+            37
+          ],
+          "q20": false,
+          "query_id": "ERR8170204__5703628",
+          "read_end0": 118,
+          "read_quality_ascii": "FFFFFFFFFFFFF:F,F:F,:F,F:F:F,,FF::FFFFFF,FFF,,FFFFFF,:FFF:,FFFFF,FF::FFFFFFFFF,FFFFF,F,FFFF:,,FF,FFFF:FFFFFF,F:FF,FFFFFF,FFFFFFFFFFF:FFF:F,FFFFFFFFF,F",
+          "read_sequence": "AAGGAGCTTAAGTTATTCATGACCGCTTGTGATGGCTGAAGGCAACCAACAGGTGGTGCTCGAAGCAAGTTTGCATTGCAGGAGTTTCCTGAGCTCGAAGCAAGTTTGCATTGGAGGAGTTTCCTGAGCTTTCAAGACAACGAGGCGCAC",
+          "read_start0": 36,
+          "read_substring_original_orientation": "TGAAGGCAACCAACAGGTGGTGCTCGAAGCAAGTTTGCATTGCAGGAGTTTCCTGAGCTCGAAGCAAGTTTGCATTGGAGGA",
+          "retained_read_sources": [
+            {
+              "file": "scan/ERR8170204/recruited_R1.fastq.gz",
+              "selector": {
+                "query_id": "ERR8170204__5703628"
+              },
+              "source_key": "code22"
+            },
+            {
+              "file": "scan/ERR8170204/recruited_R2.fastq.gz",
+              "selector": {
+                "query_id": "ERR8170204__5703628"
+              },
+              "source_key": "code22"
+            }
+          ],
+          "run_accession": "ERR8170204",
+          "sequence": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "sequence_id": "A_read_3",
+          "sequence_pair_sha256": "47c933932272e4ad9fc05993ee15c41ccf6f21d762736f812f03950164ff93b4",
+          "source": {
+            "file": "analysis/accessions/PI642998/exact_hit_trace.csv.gz",
+            "selector": {
+              "mate": "2",
+              "query_id": "ERR8170204__5703628"
+            },
+            "source_key": "code24"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "source_snapshots/code19/target_sequences.csv.gz",
+          "selector": {
+            "state_id": "S6a70e481a1417bc1396d6b145f8a84d3495cfd39b93a294d99245c86907d6763"
+          },
+          "source_key": "code26"
+        },
+        {
+          "file": "source_snapshots/code24/analysis/case_evidence_ledger.csv.gz",
+          "selector": {
+            "pi_accession": "PI642998",
+            "state_id": "S6a70e481a1417bc1396d6b145f8a84d3495cfd39b93a294d99245c86907d6763"
+          },
+          "source_key": "code26"
+        },
+        {
+          "file": "source_snapshots/code24/analysis/all_baselines.csv.gz",
+          "selector": {
+            "k": 31,
+            "minimum_support": 2,
+            "pi_accession": "PI642998",
+            "state_id": "S6a70e481a1417bc1396d6b145f8a84d3495cfd39b93a294d99245c86907d6763"
+          },
+          "source_key": "code26"
+        }
+      ],
+      "state_id": "S6a70e481a1417bc1396d6b145f8a84d3495cfd39b93a294d99245c86907d6763",
+      "target_length": 82,
+      "target_sequence": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+      "title": "Quality threshold changes support"
+    },
+    {
+      "case_id": "B",
+      "count_scope": "Complete selected-cell census from CODE24; shown sequence examples have a separate scope.",
+      "counts": {
+        "q20": {
+          "pairs": {
+            "exact": 0,
+            "pooled": 20,
+            "same_pair": 0,
+            "same_read": 0
+          },
+          "signatures": {
+            "exact": 0,
+            "pooled": 18,
+            "same_pair": 0,
+            "same_read": 0
+          }
+        },
+        "raw": {
+          "pairs": {
+            "exact": 0,
+            "pooled": 33,
+            "same_pair": 0,
+            "same_read": 0
+          },
+          "signatures": {
+            "exact": 0,
+            "pooled": 26,
+            "same_pair": 0,
+            "same_read": 0
+          }
+        }
+      },
+      "display_scope": "Two existing supported phased strings; support counts refer to their inherited consistent sequence-pair signatures.",
+      "events": [
+        {
+          "event_type": "SUBSTITUTION",
+          "observed_end0": 65,
+          "observed_start0": 64,
+          "observed_text": "T",
+          "sequence_id": "B_string_1",
+          "target_end0": 65,
+          "target_start0": 64,
+          "target_text": "C",
+          "value": ""
+        },
+        {
+          "event_type": "SUBSTITUTION",
+          "observed_end0": 4,
+          "observed_start0": 3,
+          "observed_text": "G",
+          "sequence_id": "B_string_2",
+          "target_end0": 4,
+          "target_start0": 3,
+          "target_text": "A",
+          "value": ""
+        }
+      ],
+      "genomic_absence_inferred": false,
+      "genotype_called": false,
+      "interpretation": "Each supported phased string differs from the catalog target and lacks some target 31-mers, while their union contains every target 31-mer. This illustrates observed word-set complementation. The strings and primary reference placements do not establish complete genomic haplotypes or target absence.",
+      "joint_target_k31_words_present": 52,
+      "pair_id": "P000387",
+      "pi_accession": "PI533866",
+      "placement_status": "SPLIT_REFERENCE_REGIONS_SUGGESTIVE",
+      "primary_evidence_label": "PHASED_TWO_STRING_COMPLEMENTATION_EXAMPLE",
+      "selection_rationale": "Selected as the lexicographically first accession among the four inherited phased-complementation examples, with two supported strings.",
+      "selection_scope": "Purposive existing-case illustration, not a representative prevalence sample.",
+      "sequences": [
+        {
+          "aligned_sequence": "AAAAGCTAGATTACCCCCTTGCTGTCCAGAACAGCTTATGAACCCTTAATTAATTATTTGATGATATAGCCAAGACATATTT",
+          "aligned_target": "AAAAGCTAGATTACCCCCTTGCTGTCCAGAACAGCTTATGAACCCTTAATTAATTATTTGATGACATAGCCAAGACATATTT",
+          "distinct_pair_signature_support": 5,
+          "kind": "OBSERVED_PHASED_STRING_FROM_RETAINED_READ_EVIDENCE",
+          "label": "Observed string A",
+          "locus_id": "P387_A",
+          "raw_pairs_in_consistent_signatures": 6,
+          "sequence": "AAAAGCTAGATTACCCCCTTGCTGTCCAGAACAGCTTATGAACCCTTAATTAATTATTTGATGATATAGCCAAGACATATTT",
+          "sequence_id": "B_string_1",
+          "signature_hashes": [
+            "3584f00f30fae0f4c9567cece37e6084143b71bd29828dd4476568725bd6c294",
+            "41c74ea057dcd7f06713d37296f2a8d16dfd1091c8fcc62dca7d597645c159e6",
+            "5b24f5070cb09e7ff9ffc460c9528ba89b1cb4b907c0914be59e2b896f4d0235",
+            "9cb6cb372422edf8f398d0bba039c47ab56091d91ecbfd1c155fa98c3c496068",
+            "f89bbb18eeceed2a83b003ed49ee7f0168e0c91a20b89bd03cfdec01015e7e08"
+          ],
+          "signature_occurrence_run_query_ids": [
+            "ERR8097561:ERR8097561__9135224",
+            "ERR8097561:ERR8097561__9135315",
+            "ERR8097755:ERR8097755__15257664",
+            "ERR8097755:ERR8097755__15258094",
+            "ERR8097755:ERR8097755__15258203",
+            "ERR8097918:ERR8097918__3126763",
+            "ERR8097918:ERR8097918__5755745",
+            "ERR8097918:ERR8097918__5777613",
+            "ERR8106291:ERR8106291__11897969"
+          ],
+          "signature_occurrence_scope": "All inherited occurrences of the supporting sequence-pair signatures; quality eligibility can differ among identical sequence occurrences.",
+          "signature_source": {
+            "file": "analysis/haplotypes/phased_signature_evidence.csv.gz",
+            "selector": {
+              "locus_id": "P387_A",
+              "pi_accession": "PI533866",
+              "sequence": "AAAAGCTAGATTACCCCCTTGCTGTCCAGAACAGCTTATGAACCCTTAATTAATTATTTGATGATATAGCCAAGACATATTT"
+            },
+            "source_key": "code23"
+          },
+          "source": {
+            "file": "analysis/haplotypes/phased_haplotypes.csv.gz",
+            "selector": {
+              "haplotype_id": "66734ee65e9657b82e77538cdb88e4224df896ba3641a6161e51fe2b981f4288",
+              "locus_id": "P387_A",
+              "pi_accession": "PI533866"
+            },
+            "source_key": "code23"
+          },
+          "target_k31_start_positions_present0": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "target_k31_words_present": 34,
+          "target_k31_words_total": 52
+        },
+        {
+          "aligned_sequence": "AAAGGCTAGATTACCCCCTTGCTGTCCAGAACAGCTTATGAACCCTTAATTAATTATTTGATGACATAGCCAAGACATATTT",
+          "aligned_target": "AAAAGCTAGATTACCCCCTTGCTGTCCAGAACAGCTTATGAACCCTTAATTAATTATTTGATGACATAGCCAAGACATATTT",
+          "distinct_pair_signature_support": 4,
+          "kind": "OBSERVED_PHASED_STRING_FROM_RETAINED_READ_EVIDENCE",
+          "label": "Observed string B",
+          "locus_id": "P387_B",
+          "raw_pairs_in_consistent_signatures": 4,
+          "sequence": "AAAGGCTAGATTACCCCCTTGCTGTCCAGAACAGCTTATGAACCCTTAATTAATTATTTGATGACATAGCCAAGACATATTT",
+          "sequence_id": "B_string_2",
+          "signature_hashes": [
+            "23d8f028a9a3b4ab97d2d5202e78e7804063731f71603c25986f0794fa42b5ac",
+            "50f632c7755d6aaeaf847543a63826b124fa7bbb76694b8b2cb54083c7a0413f",
+            "628b015c2c44f2bf9758909a9b03d34ff318ff39e290a43d621af8620439652c",
+            "e8fb8811621559211af0f355b349f343f363829df99216bd255832ea0e17bd7a"
+          ],
+          "signature_occurrence_run_query_ids": [
+            "ERR8097561:ERR8097561__16615061",
+            "ERR8097755:ERR8097755__15170537",
+            "ERR8097755:ERR8097755__6166756",
+            "ERR8097918:ERR8097918__988220",
+            "ERR8097918:ERR8097918__994186",
+            "ERR8174604:ERR8174604__5591319"
+          ],
+          "signature_occurrence_scope": "All inherited occurrences of the supporting sequence-pair signatures; quality eligibility can differ among identical sequence occurrences.",
+          "signature_source": {
+            "file": "analysis/haplotypes/phased_signature_evidence.csv.gz",
+            "selector": {
+              "locus_id": "P387_B",
+              "pi_accession": "PI533866",
+              "sequence": "AAAGGCTAGATTACCCCCTTGCTGTCCAGAACAGCTTATGAACCCTTAATTAATTATTTGATGACATAGCCAAGACATATTT"
+            },
+            "source_key": "code23"
+          },
+          "source": {
+            "file": "analysis/haplotypes/phased_haplotypes.csv.gz",
+            "selector": {
+              "haplotype_id": "b750a1340fda6cd4daefd6570b93a4bf6c7de35bbc788420aa59cb49780e7b35",
+              "locus_id": "P387_B",
+              "pi_accession": "PI533866"
+            },
+            "source_key": "code23"
+          },
+          "target_k31_start_positions_present0": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "target_k31_words_present": 48,
+          "target_k31_words_total": 52
+        }
+      ],
+      "sources": [
+        {
+          "file": "source_snapshots/code19/target_sequences.csv.gz",
+          "selector": {
+            "state_id": "Seb09326eb95c798ee0adceb37c02d7f6239158d3406d1ac1c7e89bdeb60e2117"
+          },
+          "source_key": "code26"
+        },
+        {
+          "file": "source_snapshots/code24/analysis/case_evidence_ledger.csv.gz",
+          "selector": {
+            "pi_accession": "PI533866",
+            "state_id": "Seb09326eb95c798ee0adceb37c02d7f6239158d3406d1ac1c7e89bdeb60e2117"
+          },
+          "source_key": "code26"
+        },
+        {
+          "file": "source_snapshots/code24/analysis/all_baselines.csv.gz",
+          "selector": {
+            "k": 31,
+            "minimum_support": 2,
+            "pi_accession": "PI533866",
+            "state_id": "Seb09326eb95c798ee0adceb37c02d7f6239158d3406d1ac1c7e89bdeb60e2117"
+          },
+          "source_key": "code26"
+        }
+      ],
+      "state_id": "Seb09326eb95c798ee0adceb37c02d7f6239158d3406d1ac1c7e89bdeb60e2117",
+      "target_k31_words_total": 52,
+      "target_length": 82,
+      "target_sequence": "AAAAGCTAGATTACCCCCTTGCTGTCCAGAACAGCTTATGAACCCTTAATTAATTATTTGATGACATAGCCAAGACATATTT",
+      "title": "Two observed strings jointly cover the target words"
+    },
+    {
+      "case_id": "C",
+      "count_scope": "Complete selected-cell census from CODE24; shown sequence examples have a separate scope.",
+      "counts": {
+        "q20": {
+          "pairs": {
+            "exact": 0,
+            "pooled": 18,
+            "same_pair": 6,
+            "same_read": 4
+          },
+          "signatures": {
+            "exact": 0,
+            "pooled": 17,
+            "same_pair": 6,
+            "same_read": 4
+          }
+        },
+        "raw": {
+          "pairs": {
+            "exact": 0,
+            "pooled": 23,
+            "same_pair": 7,
+            "same_read": 4
+          },
+          "signatures": {
+            "exact": 0,
+            "pooled": 22,
+            "same_pair": 7,
+            "same_read": 4
+          }
+        }
+      },
+      "display_scope": "One authentic 117-base exact-hit read, supported by its sequence-pair hash and original per-base quality.",
+      "events": [
+        {
+          "event_type": "INSERTION_ALIGNMENT",
+          "observed_end0": 40,
+          "observed_start0": 5,
+          "observed_text": "CAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTG",
+          "sequence_id": "C_read_1",
+          "target_end0": 5,
+          "target_start0": 5,
+          "target_text": "",
+          "value": 35
+        }
+      ],
+      "genomic_absence_inferred": false,
+      "genotype_called": false,
+      "interpretation": "One retained Q20 read contains the complete 117-base extra-repeat string and every target 31-mer, but not the original exact 82-base target. The selected-cell census has four Q20 same-read signatures and zero exact signatures. The single displayed read is not that census. The repeat permits multiple equivalent insertion alignments, so the drawing does not locate a unique genomic breakpoint.",
+      "pair_id": "P000508",
+      "pi_accession": "PI656075",
+      "placement_status": "ONE_REFERENCE_WINDOW_CAN_COVER_WORD_SET",
+      "primary_evidence_label": "EXTRA_REPEAT_SEQUENCE_OBSERVED",
+      "selection_rationale": "Selected because this is the sole inherited same-read k31 discrepancy and an authentic 117-base observed segment is retained.",
+      "selection_scope": "Purposive existing-case illustration, not a representative prevalence sample.",
+      "sequences": [
+        {
+          "aligned_sequence": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "aligned_target": "TCCTC-----------------------------------CAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "alignment_scope": "Leftmost equivalent single-insertion alignment for display; the insertion breakpoint is ambiguous within the repeated sequence.",
+          "display_insertion_after_target_bases": 5,
+          "equivalent_insertion_after_target_bases": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61
+          ],
+          "hypothesis_source": {
+            "file": "analysis/hypotheses.json",
+            "selector": {
+              "field": "extra_repeat_segment",
+              "locus_id": "P508"
+            },
+            "source_key": "code23"
+          },
+          "inserted_sequence": "CAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTG",
+          "insertion_length": 35,
+          "kind": "OBSERVED_EXACT_117BP_READ_SUBSTRING",
+          "label": "ERR8171011__1851235/R1",
+          "mate": 1,
+          "minimum_phred": 37,
+          "orientation_to_target": "-",
+          "phred_values": [
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37
+          ],
+          "q20": true,
+          "query_id": "ERR8171011__1851235",
+          "read_end0": 136,
+          "read_quality_ascii": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
+          "read_sequence": "CACGACCGCTTGTGATGGCTGAAGGCAACCAACAGGTGGTGCTCGAAGCAAGTTTGCATTGCAGGAGTTTCCTGAGCTCGAAGCAAGTTTGCATTGCAGGAGTTTCCTGAGCTCGAAGCAAGTTTGCATTGGAGGAGTTTGCGAGCTTTC",
+          "read_start0": 19,
+          "read_substring_original_orientation": "TGAAGGCAACCAACAGGTGGTGCTCGAAGCAAGTTTGCATTGCAGGAGTTTCCTGAGCTCGAAGCAAGTTTGCATTGCAGGAGTTTCCTGAGCTCGAAGCAAGTTTGCATTGGAGGA",
+          "retained_read_sources": [
+            {
+              "file": "scan/ERR8171011/recruited_R1.fastq.gz",
+              "selector": {
+                "query_id": "ERR8171011__1851235"
+              },
+              "source_key": "code22"
+            },
+            {
+              "file": "scan/ERR8171011/recruited_R2.fastq.gz",
+              "selector": {
+                "query_id": "ERR8171011__1851235"
+              },
+              "source_key": "code22"
+            }
+          ],
+          "run_accession": "ERR8171011",
+          "sequence": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+          "sequence_id": "C_read_1",
+          "sequence_pair_sha256": "1eb83854a65a0f76a85abd87ff42a93620a6a7ffe132391ece335c4e36bb152d",
+          "source": {
+            "file": "analysis/repeat/repeat_exact117_hit_projection.csv.gz",
+            "selector": {
+              "mate": "1",
+              "query_id": "ERR8171011__1851235"
+            },
+            "source_key": "code23"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "file": "source_snapshots/code19/target_sequences.csv.gz",
+          "selector": {
+            "state_id": "S6a70e481a1417bc1396d6b145f8a84d3495cfd39b93a294d99245c86907d6763"
+          },
+          "source_key": "code26"
+        },
+        {
+          "file": "source_snapshots/code24/analysis/case_evidence_ledger.csv.gz",
+          "selector": {
+            "pi_accession": "PI656075",
+            "state_id": "S6a70e481a1417bc1396d6b145f8a84d3495cfd39b93a294d99245c86907d6763"
+          },
+          "source_key": "code26"
+        },
+        {
+          "file": "source_snapshots/code24/analysis/all_baselines.csv.gz",
+          "selector": {
+            "k": 31,
+            "minimum_support": 2,
+            "pi_accession": "PI656075",
+            "state_id": "S6a70e481a1417bc1396d6b145f8a84d3495cfd39b93a294d99245c86907d6763"
+          },
+          "source_key": "code26"
+        }
+      ],
+      "state_id": "S6a70e481a1417bc1396d6b145f8a84d3495cfd39b93a294d99245c86907d6763",
+      "target_length": 82,
+      "target_sequence": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+      "title": "An extra repeat preserves short words"
+    },
+    {
+      "case_id": "D",
+      "count_scope": "Complete selected-cell census from CODE24; shown sequence examples have a separate scope.",
+      "counts": {
+        "q20": {
+          "pairs": {
+            "exact": 0,
+            "pooled": 14,
+            "same_pair": 0,
+            "same_read": 0
+          },
+          "signatures": {
+            "exact": 0,
+            "pooled": 13,
+            "same_pair": 0,
+            "same_read": 0
+          }
+        },
+        "raw": {
+          "pairs": {
+            "exact": 0,
+            "pooled": 22,
+            "same_pair": 0,
+            "same_read": 0
+          },
+          "signatures": {
+            "exact": 0,
+            "pooled": 21,
+            "same_pair": 0,
+            "same_read": 0
+          }
+        }
+      },
+      "display_scope": "Catalog target and complete selected-cell evidence counts only; no observed alternative sequence is available in this illustration.",
+      "events": [],
+      "genomic_absence_inferred": false,
+      "genotype_called": false,
+      "interpretation": "The selected-cell census supports every target 31-mer separately, but no same-pair signature meets the complete word-set requirement. Primary reference placements are suggestive of split regions. The biological mechanism remains unresolved; neither an alternative full-span sequence nor genomic absence is inferred.",
+      "observed_alternative_sequence": null,
+      "pair_id": "P000535",
+      "pi_accession": "PI576349",
+      "placement_status": "SPLIT_REFERENCE_REGIONS_SUGGESTIVE",
+      "primary_evidence_label": "BIOLOGICAL_MECHANISM_UNRESOLVED",
+      "selection_rationale": "Selected to retain an unresolved case with short-word support and no same-pair support; no observed alternative full-span string is invented.",
+      "selection_scope": "Purposive existing-case illustration, not a representative prevalence sample.",
+      "sequences": [],
+      "sources": [
+        {
+          "file": "source_snapshots/code19/target_sequences.csv.gz",
+          "selector": {
+            "state_id": "S223420f90c18497d95876a8b4180c688b7ea7a1067b02f6da82f9d372ef75330"
+          },
+          "source_key": "code26"
+        },
+        {
+          "file": "source_snapshots/code24/analysis/case_evidence_ledger.csv.gz",
+          "selector": {
+            "pi_accession": "PI576349",
+            "state_id": "S223420f90c18497d95876a8b4180c688b7ea7a1067b02f6da82f9d372ef75330"
+          },
+          "source_key": "code26"
+        },
+        {
+          "file": "source_snapshots/code24/analysis/all_baselines.csv.gz",
+          "selector": {
+            "k": 31,
+            "minimum_support": 2,
+            "pi_accession": "PI576349",
+            "state_id": "S223420f90c18497d95876a8b4180c688b7ea7a1067b02f6da82f9d372ef75330"
+          },
+          "source_key": "code26"
+        }
+      ],
+      "state_id": "S223420f90c18497d95876a8b4180c688b7ea7a1067b02f6da82f9d372ef75330",
+      "target_length": 82,
+      "target_sequence": "ATTAGTAGTCAAATTCTAATGTTTAGCCATTTTGTAAAATAGAAAACTTTTTAAAAAAGAACAGGTCCACAACAGCCTTGCT",
+      "title": "An unresolved pooled-word discrepancy"
+    }
+  ],
+  "schema": "CODE27_REPRESENTATIVE_CASES_V1",
+  "selection": {
+    "all_selected_cases": 60,
+    "causal_mechanisms_established_for_all_cases": false,
+    "illustrated_cases": 4,
+    "purposive": true,
+    "retrospective": true,
+    "unresolved_cases_in_full_selected_ledger": 36
+  },
+  "sequence_coordinates": "0-based, half-open; displayed sequence strings and quality vectors are oriented to the catalog target.",
+  "signature_definition": "SHA256 of ordered mate1 sequence + newline + mate2 sequence + newline; not a count of proven independent molecules.",
+  "source_files": [
+    {
+      "file": "scan/ERR8056500/recruited_R1.fastq.gz",
+      "sha256": "a20d51301537db3899857ece550496a3dda7655df8040d41728a55f071025dc6",
+      "size_bytes": 4156,
+      "source_key": "code22"
+    },
+    {
+      "file": "scan/ERR8056500/recruited_R2.fastq.gz",
+      "sha256": "aba5fcb756971b8d6639d34582a58942b7109cbe9ec6975507e449071e9a31ce",
+      "size_bytes": 4438,
+      "source_key": "code22"
+    },
+    {
+      "file": "scan/ERR8170204/recruited_R1.fastq.gz",
+      "sha256": "8a137f456e907e7fde99de7497e82290f02b68bdf90ee26afe00266bb5e982fa",
+      "size_bytes": 6970,
+      "source_key": "code22"
+    },
+    {
+      "file": "scan/ERR8170204/recruited_R2.fastq.gz",
+      "sha256": "50c7418ad683999423cf47e525601a706788a3256a02b86558f794942608ce3e",
+      "size_bytes": 7392,
+      "source_key": "code22"
+    },
+    {
+      "file": "scan/ERR8171011/recruited_R1.fastq.gz",
+      "sha256": "b327254570130d6313434d00dd5d78ff71db7d0dded65e04cdae67c862c0e221",
+      "size_bytes": 4259,
+      "source_key": "code22"
+    },
+    {
+      "file": "scan/ERR8171011/recruited_R2.fastq.gz",
+      "sha256": "5e96a1148d974a58cc476d22aa741a347fcfa24a9db527f3ea30c2ea724e99cf",
+      "size_bytes": 4430,
+      "source_key": "code22"
+    },
+    {
+      "file": "analysis/hypotheses.json",
+      "sha256": "b7ed9a905ce24563d4b81b79ff0723a81b298dcffd0321000d91dc07738ef7b2",
+      "size_bytes": 17365,
+      "source_key": "code23"
+    },
+    {
+      "file": "analysis/haplotypes/phased_haplotypes.csv.gz",
+      "sha256": "8f5d374102f24bf67ca581563198c74e8cb02693d1a751bd76a15c6af13bd7b8",
+      "size_bytes": 3759,
+      "source_key": "code23"
+    },
+    {
+      "file": "analysis/haplotypes/phased_signature_evidence.csv.gz",
+      "sha256": "27b83a3cd7e4729bb60157287b07f22417ef448079c6b0f36a7d4225ccb3ef9a",
+      "size_bytes": 617922,
+      "source_key": "code23"
+    },
+    {
+      "file": "analysis/repeat/repeat_exact117_hit_projection.csv.gz",
+      "sha256": "cf1d9656254195b4deb676a12d79de720700182e2ddf5dfa875cdbfa5d768cd9",
+      "size_bytes": 516,
+      "source_key": "code23"
+    },
+    {
+      "file": "analysis/accessions/PI642998/exact_hit_trace.csv.gz",
+      "sha256": "2da4049d764df5fe921aef5a6a6882428593cde0a1b579ff03c582efa8706863",
+      "size_bytes": 809,
+      "source_key": "code24"
+    },
+    {
+      "file": "source_snapshots/code19/target_sequences.csv.gz",
+      "sha256": "d2a375ca6406899aab7ac3d7aab1991d568d26dc0edeb8cc96ca312c974add89",
+      "size_bytes": 90002,
+      "source_key": "code26"
+    },
+    {
+      "file": "source_snapshots/code24/analysis/case_evidence_ledger.csv.gz",
+      "sha256": "7e0ac7bcf6014251acbb982232e5afddad5ca79f86e571c0159712d9391a78ee",
+      "size_bytes": 3275,
+      "source_key": "code26"
+    },
+    {
+      "file": "source_snapshots/code24/analysis/all_baselines.csv.gz",
+      "sha256": "f7a244a88b48744373ac6a421d58035da50cfcb26ce43ab34fa03cb826577162",
+      "size_bytes": 13578,
+      "source_key": "code26"
+    }
+  ]
+}

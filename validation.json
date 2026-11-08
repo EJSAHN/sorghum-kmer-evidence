@@ -1,0 +1,341 @@
+{
+  "schema_version": 3,
+  "version": "1.1.1",
+  "manuscript_release": "v4",
+  "status": "PASS_FOR_RECORDED_CHECKS",
+  "validated_utc": "2026-11-08T00:17:11.869973+00:00",
+  "environment": {
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "python": "3.12.14",
+    "native_compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "zlib_compile": "1.3.2",
+    "zlib_runtime": "1.3.2"
+  },
+  "hash_basis": "SHA-256 of decompressed table content. Compressed bytes are recorded only for information.",
+  "unit_and_integration_tests": {
+    "passed": 74,
+    "seconds": 21.868,
+    "failures": 0,
+    "skipped": 0
+  },
+  "catalogue_replay": {
+    "status": "PASS",
+    "input_files_verified": 17,
+    "tables": 15,
+    "elapsed_seconds": 69.71291479200227,
+    "cells": 5304,
+    "common_fixed_k_cells": 5256,
+    "all_table_content_matches_v3": true,
+    "table_checks": [
+      {
+        "compressed_file_sha256": "50d46c565dc8429c50710ce4c4edb2348df45ec3f019f4c17b7d6c39cb3960a8",
+        "content_sha256": "a3fc5829464a9630a5ad671379d32387f028ebb7c4551d05d13ee53cd0c4f886",
+        "file": "tables/native_evidence.csv.gz",
+        "rows": 63808
+      },
+      {
+        "compressed_file_sha256": "c493160aa0c2609032d87aa807b9852df68b85a7023da1c3929b5e89be6d61a0",
+        "content_sha256": "8b1dcff1b3e2093c989de34602bbac7eb099b9eda6fc0ed8c677b746730bd75b",
+        "file": "tables/baseline_coverage.csv.gz",
+        "rows": 4641
+      },
+      {
+        "compressed_file_sha256": "1276ae963d9109c86af486e6cab54bffaf7e51cd002d773b380707443938a7c0",
+        "content_sha256": "25e85c3745ef07622af78fd09f83855155e838fd42fdb7bb03429a96986e885f",
+        "file": "tables/full_catalog_calls.csv.gz",
+        "rows": 222480
+      },
+      {
+        "compressed_file_sha256": "40aa7baef4b482e8c51f346cb6eaf7c94bc7a835120bf6019bd6a9403829f574",
+        "content_sha256": "80a196bff2302fab782e8cffc6320c1aac05ba7323f6baf408996d78c41ca118",
+        "file": "tables/baseline_summary.csv.gz",
+        "rows": 252
+      },
+      {
+        "compressed_file_sha256": "bd94671e3090fba018437e99e63b807cb756d08462802e13bfa8822b425a2ac3",
+        "content_sha256": "cb920dc88dac8978e5679bda23271db0a3a8b2e74ceeadb59ca24abe9aea0043",
+        "file": "tables/count_equivalence.csv.gz",
+        "rows": 252
+      },
+      {
+        "compressed_file_sha256": "849af79ef582b84d4d66877414af6644ce30538b27b1d9abf98aebdc17ffe2dd",
+        "content_sha256": "37ea1a16ae95de5849e0a0cd5424087a899d95b59951e12926274498fb97070e",
+        "file": "tables/residual_cases.csv.gz",
+        "rows": 1023
+      },
+      {
+        "compressed_file_sha256": "c12ef47966b49f1bf177b6b8bfc094720a83660dd70447af942273e09690ec98",
+        "content_sha256": "a73a4018a44c225e45eb12fe372f41c0461e34e457ccc86ef2769e41f0688d88",
+        "file": "tables/simple_rule_comparison.csv.gz",
+        "rows": 138
+      },
+      {
+        "compressed_file_sha256": "bdd5d3d3a42084a125b72b37b7fb8f65d2a5705fc086679c022aeaeaf830ee35",
+        "content_sha256": "cd52b8fcd46ef3828cf4749ef2667262a50917e630b2182e81ee1f8d08e5fa36",
+        "file": "tables/signature_coverage.csv.gz",
+        "rows": 5304
+      },
+      {
+        "compressed_file_sha256": "41905a15aa2a7d1c83605c8cf5934e78a4c26a8dd909b6d1649cb2b758c9faf8",
+        "content_sha256": "6ad4e82f3afe3faf34d043e8d675f9b304355b63a9a05cf77bfceda2b6db3330",
+        "file": "tables/selected_signature_sensitivity.csv.gz",
+        "rows": 84
+      },
+      {
+        "compressed_file_sha256": "248f1a109edc8e53c4792fc9bd0dcfe88513311f1fbb0c737d3b1a5775e6fe3f",
+        "content_sha256": "17c64131384b26fc18ec941e20786a1b84707e2503221b1064240ea5f8df251c",
+        "file": "tables/selected_case_baselines.csv.gz",
+        "rows": 2520
+      },
+      {
+        "compressed_file_sha256": "2dc91ff8e147896b12784d6d5a66f9c01cf901668d885b252c9bf97e72779f5f",
+        "content_sha256": "06f60236d9abef234c9a7822cbb59cc85746c8a05caa5adacdc5154e9779afbe",
+        "file": "tables/incremental_case_context.csv.gz",
+        "rows": 26
+      },
+      {
+        "compressed_file_sha256": "e9b29a800c21a118cd6e3a4a100edd4ac87bca0828008532b1530b51ed6ed72e",
+        "content_sha256": "ed48f0dd716d863c941d3fdfae3230e2c0126c896bf6eba3c5b0d8a2cbcd7813",
+        "file": "tables/simulation_context.csv.gz",
+        "rows": 1368
+      },
+      {
+        "compressed_file_sha256": "c38e6bd4d212c466b866942b42e95697475b58b5bf48dc4f77e2d3dcc980f439",
+        "content_sha256": "8db3acf9bbeb7b846070f7a3945445175660c0c68de933cbf785318a4ef31a74",
+        "file": "tables/primary_comparison.csv.gz",
+        "rows": 14
+      },
+      {
+        "compressed_file_sha256": "9f0557a70ec638554c0d0f6e31f5396b8854021195d1973a82507c67c7577f71",
+        "content_sha256": "084c3a8e65c3c64128675731ff474347b54b817acd43a49732d1322cfaf0199d",
+        "file": "tables/fraction_rule.csv.gz",
+        "rows": 588
+      },
+      {
+        "compressed_file_sha256": "7ed57c1e3bbf447758d6839b14503c3812c9d65104c5a1eab0fd8e82c19666db",
+        "content_sha256": "434ce817e932f3137506b52ce0b74b0315e53511fdb377c5264abcd8aa017079",
+        "file": "tables/target_repeat_profile.csv.gz",
+        "rows": 663
+      }
+    ]
+  },
+  "synthetic_replay": {
+    "status": "NOT_RERUN_FOR_V4",
+    "previous_execution": "validation_v3_independent.json",
+    "previous_status": "PASS",
+    "simulation_cells": 53280,
+    "reason": "Benchmark entry point, generator, detector, summary code, inputs, protocol and expected output hashes are unchanged from the independently replayed v3.",
+    "unchanged_files_verified": [
+      {
+        "file": "config/benchmark_protocol.json",
+        "sha256": "a50cfda49dfa04cfa8e76cc2ba8d75609034bd38b5f0fa1371a8a0c6ffa8e83b",
+        "identical_to_v3": true
+      },
+      {
+        "file": "config/catalog_protocol.json",
+        "sha256": "6ca35f069e54d5aa4e420df5f4c40b7f0ae6cc98263c2e0f1574751a968cff38",
+        "identical_to_v3": true
+      },
+      {
+        "file": "config/expected_benchmark_outputs.json",
+        "sha256": "994e8001a906795b7ec0ab2fff1c4be7225a73b43d632e6a3346efde78bcdc35",
+        "identical_to_v3": true
+      },
+      {
+        "file": "config/expected_catalog_outputs.json",
+        "sha256": "ab695fbfa1030c394f6a52ad8027de24f7373e8a4cac096c585400774002996e",
+        "identical_to_v3": true
+      },
+      {
+        "file": "config/target_panel.json",
+        "sha256": "75143db74dc1c5d10b3761aa17d50f0f35120177c918768517198d573b099e7c",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/catalog/baseline_eligibility.csv.gz",
+        "sha256": "98170c4af293e4fedea5e6a3444902f4ee076a63db8840882fe41e691013514d",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/catalog/group_counts.csv.gz",
+        "sha256": "0672f66a95f3bd283834f4fdbfac6b63f9f817cfd1da019304990f301d100460",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/catalog/groups.csv.gz",
+        "sha256": "df77c93755f40d867c0a236ff2104e274e19f0926f5fcd04fe5cee167709f6c5",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/catalog/queries.csv.gz",
+        "sha256": "dd9faa8c1fd94924a209e9c6711cc71f914edfe9df81b89cae1fa81971044a09",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/catalog/sample_quality_summary.csv.gz",
+        "sha256": "b1657a009e8abea6c3c8994829d858c895be928b747c66a52a2ddd561a17dca7",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/catalog/support_comparisons.csv.gz",
+        "sha256": "0a458b1681c205912460fc048ed65f96a3073e3049b273aff3788fe3d771a799",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/catalog/target_sequences.csv.gz",
+        "sha256": "d2a375ca6406899aab7ac3d7aab1991d568d26dc0edeb8cc96ca312c974add89",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/catalog/word_counts.csv.gz",
+        "sha256": "14768d8789a20bd66b0ac5cf01069ae46071c317a97cf5f947465239e1050ff8",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/input_manifest.json",
+        "sha256": "5285b0bc4ecaaf8d9486be320c00be5ed89c725f9387e1f6fe3d74fe4a7b14de",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/representative_cases/cases.csv",
+        "sha256": "155d80e5bc79d9377a95ec52ceaf964540723d22f12c7ce4344031fb209a3b37",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/representative_cases/cases.json",
+        "sha256": "500692e9d7df6d48eb31dc43c0d5a4aa7e78774978ffca3f0640a423c50d3e47",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/representative_cases/provenance.json",
+        "sha256": "f440fb6afda58680245512ffe1cd7e2bd1eb364cf5fc3efed124592156adc30a",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/representative_cases/sequence_events.tsv",
+        "sha256": "1ba66ec903f3f8d260031bda084031ade5a5f473cde1077c156ced09781149e3",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/representative_cases/sequences.fasta",
+        "sha256": "6f9f268ee26f4d413e43595a7de4e3ab0d3d324d99d3817ea5620af0b8adb4a8",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/signatures/analysis/all_baselines.csv.gz",
+        "sha256": "f7a244a88b48744373ac6a421d58035da50cfcb26ce43ab34fa03cb826577162",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/signatures/analysis/case_evidence_ledger.csv.gz",
+        "sha256": "7e0ac7bcf6014251acbb982232e5afddad5ca79f86e571c0159712d9391a78ee",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/simulation/CODE25_summary.json",
+        "sha256": "77e48f6c172cc909eb065a786083dbc599ca4f4ea462a395ffe86abe7865ee73",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/derived/simulation/analysis/performance_by_stratum.csv.gz",
+        "sha256": "f6027bcb5638da1f7472867010bec5e5602d22da0c00f78f7f667deb736a7d2c",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/provenance/SOURCE_DATA_AND_METHODS.json",
+        "sha256": "0b3becdb25ade14eed7215d157bd4c53f4131dbe8f5dfe675d827becffcf6d2f",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/provenance/candidate_ranking279.csv",
+        "sha256": "9b92da3486f314fb578abc9a8f35b79edd47fc881660b1005f712ed1f23eb4a2",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/provenance/discovery_sequence_states663.csv",
+        "sha256": "f8a56a2144022099cd1ace04e45570a4bf92ad68dda845f357e58f0cc373b74d",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/provenance/ena_fastq_manifest210.csv",
+        "sha256": "fea6bf3c05590689dff0c9f0a9af78b270ad6118c606204d522346319c3a4639",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/provenance/frozen_pairs595.csv",
+        "sha256": "2a2f4bad1b69769cc0f85effad113d7bca29c50b5f71bc2bc177c687d937e3bf",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/provenance/frozen_patterns1190.csv",
+        "sha256": "b20111dffa25e15a95d6056169802c54e0646aa0197417e1f649abd128464fd8",
+        "identical_to_v3": true
+      },
+      {
+        "file": "data/provenance/selected_accessions12.csv",
+        "sha256": "ef7ebb7c054d59f96032c13f105bb54eb27d203ee7e52d77f506b9990e959fef",
+        "identical_to_v3": true
+      },
+      {
+        "file": "native/panel_scan.cpp",
+        "sha256": "77550ef70cdfb2bff39b2ab31a528b3b749d9013af390f35cd425a3057f4f0ec",
+        "identical_to_v3": true
+      },
+      {
+        "file": "run_benchmark.py",
+        "sha256": "be9261a9e24be58a0a2f4e64d294794dc38993b20fc916a4a1ede5474f562ea4",
+        "identical_to_v3": true
+      },
+      {
+        "file": "src/kmer_evidence/benchmark.py",
+        "sha256": "eb184ecbf72c3973b3627b034b67b1c86a6991576e7a8cfcb0f9fca72bbb213b",
+        "identical_to_v3": true
+      },
+      {
+        "file": "src/kmer_evidence/catalog.py",
+        "sha256": "569618fe63a1600a8533a6d0ba51a3d06fb5edb0a8e008cb8c3663cfead490f4",
+        "identical_to_v3": true
+      },
+      {
+        "file": "src/kmer_evidence/detector.py",
+        "sha256": "4a2386104510a386563c5b67da98cd766eed2855a6fe3fa40ff52eef787cfc74",
+        "identical_to_v3": true
+      },
+      {
+        "file": "src/kmer_evidence/headlines.py",
+        "sha256": "c547fb3fdacf7219bf69dad437f6d6329633fd74241d2390ba9530823f83091e",
+        "identical_to_v3": true
+      },
+      {
+        "file": "src/kmer_evidence/io.py",
+        "sha256": "8a05ee8d7eebdb6f7cc04bd48f354d3ab49c47e3c5ac3f056bea69de405a0f03",
+        "identical_to_v3": true
+      },
+      {
+        "file": "src/kmer_evidence/signatures.py",
+        "sha256": "f42faf209b7213ad0b90ba42ea45d509f55c7bd33ccb1fc542be4ddf24a3f1e1",
+        "identical_to_v3": true
+      },
+      {
+        "file": "src/kmer_evidence/simulation.py",
+        "sha256": "0b1b4ea1e2c6a502caa66736cbfea6c54ec05db953f9ba2a55ecf6635f6d7a37",
+        "identical_to_v3": true
+      }
+    ]
+  },
+  "fraction_precision_fix": {
+    "description": "Compare rational forms of the supplied decimal fraction, without rounding to tenths.",
+    "regressions_tested": [
+      0.45,
+      0.29
+    ],
+    "reported_fraction_grid_and_results": "UNCHANGED"
+  },
+  "not_performed": [
+    "Original FASTQ rescan",
+    "Reference remapping",
+    "Windows execution",
+    "Ceres submission",
+    "Native zlib-ng execution in this validation environment"
+  ]
+}

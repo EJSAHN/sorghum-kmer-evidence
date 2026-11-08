@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "scope": "Scientific code lineage; portable entry points and input/output helpers are new release wrappers. Historical filenames identify archived source packages, not filesystem requirements.",
+  "files": [
+    {
+      "file": "src/kmer_evidence/catalog.py",
+      "sha256": "569618fe63a1600a8533a6d0ba51a3d06fb5edb0a8e008cb8c3663cfead490f4",
+      "historical_source": "SORGHUM_SEQUENCE_GRAMMAR_CODE26_CERES_v1.0.0/src/code26_core.py",
+      "historical_source_sha256": "5b053dee61e8a868bc93e9e0f7501b64de6477ac214ba51843b6bf78e0880429",
+      "transformation": "Module renamed for public use; module docstring clarified in manuscript release v2. Executable syntax, scientific calculations, seeds and output schema are unchanged from the archived source."
+    },
+    {
+      "file": "src/kmer_evidence/signatures.py",
+      "sha256": "f42faf209b7213ad0b90ba42ea45d509f55c7bd33ccb1fc542be4ddf24a3f1e1",
+      "historical_source": "SORGHUM_SEQUENCE_GRAMMAR_CODE26_CERES_v1.0.0/src/code26_overlay.py",
+      "historical_source_sha256": "295b58e6e87469f374863de8a44d41d4a5771b7aea3fd00256e007ee5ca37fff",
+      "transformation": "Module renamed for public use; module docstring clarified in manuscript release v2. Executable syntax, scientific calculations, seeds and output schema are unchanged from the archived source."
+    },
+    {
+      "file": "src/kmer_evidence/detector.py",
+      "sha256": "4a2386104510a386563c5b67da98cd766eed2855a6fe3fa40ff52eef787cfc74",
+      "historical_source": "SORGHUM_SEQUENCE_GRAMMAR_CODE25_CERES_v1.0.0/src/code25_core.py",
+      "historical_source_sha256": "0e6afbfa176f9844b856844cd0d10db5dc29b2412e686204ba7b592e081cfa9e",
+      "transformation": "Module renamed for public use; module docstring clarified in manuscript release v2. Executable syntax, scientific calculations, seeds and output schema are unchanged from the archived source."
+    },
+    {
+      "file": "src/kmer_evidence/simulation.py",
+      "sha256": "0b1b4ea1e2c6a502caa66736cbfea6c54ec05db953f9ba2a55ecf6635f6d7a37",
+      "historical_source": "SORGHUM_SEQUENCE_GRAMMAR_CODE25_CERES_v1.0.0/src/code25_simulation.py",
+      "historical_source_sha256": "a94f41da1b253568b05caba92f96d7211c8678e17bb4ad9b51388b08b7e79c05",
+      "transformation": "Module renamed for public use; module docstring clarified in manuscript release v2. Executable syntax, scientific calculations, seeds and output schema are unchanged from the archived source."
+    },
+    {
+      "file": "native/panel_scan.cpp",
+      "sha256": "77550ef70cdfb2bff39b2ab31a528b3b749d9013af390f35cd425a3057f4f0ec",
+      "historical_source": "code19_v105_package/src/panel_scan.cpp",
+      "historical_source_sha256": "77550ef70cdfb2bff39b2ab31a528b3b749d9013af390f35cd425a3057f4f0ec",
+      "transformation": "Byte-for-byte copy of the frozen-catalogue scanner source."
+    },
+    {
+      "file": "src/kmer_evidence/headlines.py",
+      "sha256": "c547fb3fdacf7219bf69dad437f6d6329633fd74241d2390ba9530823f83091e",
+      "historical_source": "SORGHUM_SEQUENCE_GRAMMAR_CODE26_CERES_v1.0.0/src/code26_analysis.py",
+      "historical_source_sha256": "964139ac7c143e0624cd384a4a964a2f7c10b9028f330d6cf2c3de1b12d26f57",
+      "transformation": "Extracted primary_headlines function with local require helper and imports; reporting/orchestration omitted."
+    },
+    {
+      "file": "src/kmer_evidence/benchmark.py",
+      "sha256": "eb184ecbf72c3973b3627b034b67b1c86a6991576e7a8cfcb0f9fca72bbb213b",
+      "historical_source": "SORGHUM_SEQUENCE_GRAMMAR_CODE25_CERES_v1.0.0/src/code25_analysis.py",
+      "historical_source_sha256": "0dcd8b45fabd7395d2e5a6e166e348f4ce3f1371fc0f34a6adc3ff96665c5eac",
+      "transformation": "Updated package-relative imports; removed HTML report function and call; renamed summary JSON. Scientific calculations unchanged and all six substantive files reproduced byte-for-byte. Release v3 appended context_tables(), which summarizes completed outputs (dilution sampling ceiling and counting-unit agreement); the simulation and counting code paths are unchanged."
+    },
+    {
+      "file": "src/kmer_evidence/supplementary.py",
+      "sha256": "15156002350508f08ece73c143f0ebd9da13513224cf13c651c87e38d4bb123e",
+      "historical_source": null,
+      "historical_source_sha256": null,
+      "transformation": "New in release v3: fraction-rule table, target repeat profile and selected-case structure, computed from the supplied derived counters. Release v4 uses exact rational comparisons of decimal fraction thresholds, including values between the fixed tenths used by the study; the reported fixed-grid outputs are unchanged."
+    }
+  ],
+  "license": "No license is granted by this provenance record. Author/institutional release decision pending."
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "CODE26_RETROSPECTIVE_CATALOG_AUDIT_V1",
+  "version": "1.0.0",
+  "scope": "Existing-table reaggregation and incremental-evidence audit; no new biological data, synthetic experiment, download or FASTQ rescan.",
+  "analysis_design": "Retrospective synthesis. Baselines, Q20 and thresholds1/2/3 inherited from CODE19; not new preregistration or outcome-tuned method development.",
+  "expected_catalog_states": 663,
+  "expected_accessions": 8,
+  "expected_native_groups": 3988,
+  "expected_queries": 105983,
+  "expected_catalog_cells": 5304,
+  "expected_comparison_rows": 222480,
+  "expected_selected_cells": 60,
+  "expected_selected_states": 37,
+  "accessions": [
+    "PI533866",
+    "PI576339",
+    "PI576349",
+    "PI576373",
+    "PI576437",
+    "PI585295",
+    "PI642998",
+    "PI656075"
+  ],
+  "k_values": [
+    31,
+    41,
+    51,
+    61,
+    71,
+    81
+  ],
+  "qualities": [
+    "raw",
+    "q20"
+  ],
+  "support_thresholds": [
+    1,
+    2,
+    3
+  ],
+  "primary": {
+    "quality": "q20",
+    "minimum_support": 2,
+    "support_unit": "read_pair_observations"
+  },
+  "baseline_labels": [
+    "k31",
+    "k41",
+    "k51",
+    "k61",
+    "k71",
+    "k81",
+    "near_full"
+  ],
+  "eligibility": "Preserve CODE19 fixed k < target span rule. Targets with span <=81 are ineligible for fixed k81; not zeros. near_full=span-1. Aliases may share one native group.",
+  "common_cohort": "Intersection of eligibility for all fixed k31..81. Report matched denominators explicitly; selected frozen catalog, not random genome sampling.",
+  "fixed_control_strata": "Define once per accession/state using Q20/raw-pair-support>=2 at k31: CONCORDANT_POSITIVE when exact>=2; DISCORDANT when pooled>=2 and exact<2; BELOW_THRESHOLD otherwise. These are evidence controls, not known biological positives/negatives. Include every cell, no downsampling.",
+  "candidate_rules": "Pooled, same-pair and same-read at each fixed k and near-full; cell-level conjunctions of pooled k81 AND same-pair k31, and pooled k81 AND same-read k31. A conjunction does not assert the same observed pairs satisfy both criteria and has no inferred joint-support count. Fixed descriptive composites for this retrospective audit; no performance-selected threshold tuning.",
+  "count_vs_call": "Keep numeric support-count equality separate from thresholded call equality. Extra rejection relative to exact does not establish a corrected genotype or true negative.",
+  "signature_scope": "Complete ordered-pair sequence signature census is available only for60selected accession/state cells in CODE24. Other5244cells are NOT_MEASURED; never fill unknown values with zero or transfer across accessions.",
+  "support_comparison": "Fullcatalog uses raw read-pair observations. In selected60cells only, compare the same observations before/after sequence-signature collapse with the same Q20 and thresholds. Do not mix raw counts and signatures in one denominator.",
+  "selection_warning": "663states were discovered using four other accessions;8unused accessions are same-study holdout, not external validation. Multiple states share underlying pairs; no independent-trial p-values.",
+  "scope_limits": [
+    "No genomic absence, genotype, GWAS, sensitivity or false-positive-rate estimation from the real-data comparisons.",
+    "No new automata algorithm superiority is inferred from evidence disagreement or exact-string implementation.",
+    "The original60cases are selected discrepancies, not an unbiased accuracy panel.",
+    "Near-full and fixed-k aliases are dependent comparisons, not replicated experiments.",
+    "CODE25 simulations are contextual evidence and kept separate from real-data denominators.",
+    "If simple baselines and exact counts/calls agree, record that equality rather than inventing extra performance gains."
+  ]
+}

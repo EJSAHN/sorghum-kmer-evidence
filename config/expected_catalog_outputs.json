@@ -1,0 +1,17 @@
+{
+  "baseline_coverage.csv.gz": "8b1dcff1b3e2093c989de34602bbac7eb099b9eda6fc0ed8c677b746730bd75b",
+  "baseline_summary.csv.gz": "80a196bff2302fab782e8cffc6320c1aac05ba7323f6baf408996d78c41ca118",
+  "count_equivalence.csv.gz": "cb920dc88dac8978e5679bda23271db0a3a8b2e74ceeadb59ca24abe9aea0043",
+  "fraction_rule.csv.gz": "084c3a8e65c3c64128675731ff474347b54b817acd43a49732d1322cfaf0199d",
+  "full_catalog_calls.csv.gz": "25e85c3745ef07622af78fd09f83855155e838fd42fdb7bb03429a96986e885f",
+  "incremental_case_context.csv.gz": "06f60236d9abef234c9a7822cbb59cc85746c8a05caa5adacdc5154e9779afbe",
+  "native_evidence.csv.gz": "a3fc5829464a9630a5ad671379d32387f028ebb7c4551d05d13ee53cd0c4f886",
+  "primary_comparison.csv.gz": "8db3acf9bbeb7b846070f7a3945445175660c0c68de933cbf785318a4ef31a74",
+  "residual_cases.csv.gz": "37ea1a16ae95de5849e0a0cd5424087a899d95b59951e12926274498fb97070e",
+  "selected_case_baselines.csv.gz": "17c64131384b26fc18ec941e20786a1b84707e2503221b1064240ea5f8df251c",
+  "selected_signature_sensitivity.csv.gz": "6ad4e82f3afe3faf34d043e8d675f9b304355b63a9a05cf77bfceda2b6db3330",
+  "signature_coverage.csv.gz": "cd52b8fcd46ef3828cf4749ef2667262a50917e630b2182e81ee1f8d08e5fa36",
+  "simple_rule_comparison.csv.gz": "a73a4018a44c225e45eb12fe372f41c0461e34e457ccc86ef2769e41f0688d88",
+  "simulation_context.csv.gz": "ed48f0dd716d863c941d3fdfae3230e2c0126c896bf6eba3c5b0d8a2cbcd7813",
+  "target_repeat_profile.csv.gz": "434ce817e932f3137506b52ce0b74b0315e53511fdb377c5264abcd8aa017079"
+}

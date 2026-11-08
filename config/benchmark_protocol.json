@@ -1,0 +1,85 @@
+{
+  "schema": "CODE25_BENCHMARK_PROTOCOL_V1",
+  "version": "1.0.0",
+  "frozen_before_benchmark_execution": true,
+  "master_seed": 2507112026,
+  "k_values": [
+    31,
+    41,
+    51,
+    61,
+    71,
+    81
+  ],
+  "quality_policies": [
+    "raw",
+    "q20"
+  ],
+  "support_thresholds": [
+    1,
+    2,
+    3
+  ],
+  "support_units": [
+    "pairs",
+    "signatures"
+  ],
+  "primary": {
+    "quality": "q20",
+    "minimum_support": 2,
+    "support_unit": "signatures"
+  },
+  "template_models": [
+    "present_target",
+    "present_diluted10",
+    "absent_background",
+    "absent_single_snv",
+    "absent_complement_internal",
+    "absent_complement_endpoints"
+  ],
+  "noise_models": [
+    "clean",
+    "error_1pct",
+    "quality_patch"
+  ],
+  "read_lengths": [
+    60,
+    150
+  ],
+  "pair_counts": [
+    8,
+    32
+  ],
+  "replicates": 20,
+  "expected_targets": 37,
+  "expected_cells": 53280,
+  "expected_read_pairs": 1065600,
+  "template_length": 600,
+  "target_center": 300,
+  "fragment_length_min": 180,
+  "fragment_length_max": 300,
+  "fragment_sampling": "Uniform fragment length max(180, read_length+20)..300, then uniform valid start conditional on fragment containing center300. Target-enriched toy locus sampling, not whole-genome coverage. Both FR strands equiprobable.",
+  "truth_definition": "A complete target or reverse complement exists in at least one positive-weight generating template before read sampling and sequencing errors. Never conditioned on observing an exact target read. Each sample is scored only against its designated target.",
+  "noise_definition": {
+    "clean": "No substitutions; every base Q40.",
+    "error_1pct": "Independent 0.01 substitution probability per sequenced base, each alternative equiprobable; every base Q20. No indels.",
+    "quality_patch": "No substitutions; ten contiguous bases per read assigned Q10 at a uniformly selected start, remaining bases Q40. This separates quality filtering from sequence corruption; not a calibrated sequencing-error model."
+  },
+  "stress_strata": [
+    "absent_complement_internal",
+    "absent_complement_endpoints"
+  ],
+  "stress_interpretation": "Constructed complementary variant mixtures test mechanisms; not estimated genomic prevalence. Endpoint stress is deliberately adversarial. Present diluted10 has only10% template sampling probability; finite reads may contain zero target-origin molecules.",
+  "deduplication": "Ordered R1/R2 sequence pair identity, ignoring quality and origin IDs; not independent molecule or biological replicate counting. Evidence must co-occur in one observation to count same-pair/read.",
+  "metrics": "Report positive-call rate per template/noise/read-length/pair-count stratum, method, quality, support unit and threshold. On truth-present strata this is sensitivity; on truth-absent strata false-positive rate. No prevalence-weighted overall accuracy, p-values or genomic confidence intervals. All criteria see identical reads.",
+  "method_note": "Pooled, same-pair and same-read criteria compare unique canonical k-mer sets and ignore order and multiplicity. Exact checks the complete contiguous target in either orientation. Full-length k is an equivalence check, not an independent baseline. Aho-Corasick is a matching implementation, not biological novelty.",
+  "rng_note": "SHA256-derived per-target/template/cell seeds. Geometry cellseed excludes noise_model; noise RNG is separate, preserving fragment origins across noise conditions. No Python process hash. Standard Python random.Random; record Python version and read digests.",
+  "scope_limits": [
+    "Synthetic mechanism benchmark, not independent biological validation or GWAS.",
+    "Targets were selected in earlier discrepancy analysis; no general genomic error-rate claim.",
+    "No whole-genome background, abundance estimation, indels, PCR model, contamination, real base-quality calibration or genotype calling.",
+    "Reference/original FASTQ files are neither downloaded nor rescanned.",
+    "Do not reclassify the original60 cases as false positives based on simulation.",
+    "Primary and sensitivity analyses are frozen before execution; no post hoc threshold tuning."
+  ]
+}

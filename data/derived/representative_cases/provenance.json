@@ -1,0 +1,86 @@
+[
+  {
+    "file": "scan/ERR8056500/recruited_R1.fastq.gz",
+    "sha256": "a20d51301537db3899857ece550496a3dda7655df8040d41728a55f071025dc6",
+    "size_bytes": 4156,
+    "source_key": "code22"
+  },
+  {
+    "file": "scan/ERR8056500/recruited_R2.fastq.gz",
+    "sha256": "aba5fcb756971b8d6639d34582a58942b7109cbe9ec6975507e449071e9a31ce",
+    "size_bytes": 4438,
+    "source_key": "code22"
+  },
+  {
+    "file": "scan/ERR8170204/recruited_R1.fastq.gz",
+    "sha256": "8a137f456e907e7fde99de7497e82290f02b68bdf90ee26afe00266bb5e982fa",
+    "size_bytes": 6970,
+    "source_key": "code22"
+  },
+  {
+    "file": "scan/ERR8170204/recruited_R2.fastq.gz",
+    "sha256": "50c7418ad683999423cf47e525601a706788a3256a02b86558f794942608ce3e",
+    "size_bytes": 7392,
+    "source_key": "code22"
+  },
+  {
+    "file": "scan/ERR8171011/recruited_R1.fastq.gz",
+    "sha256": "b327254570130d6313434d00dd5d78ff71db7d0dded65e04cdae67c862c0e221",
+    "size_bytes": 4259,
+    "source_key": "code22"
+  },
+  {
+    "file": "scan/ERR8171011/recruited_R2.fastq.gz",
+    "sha256": "5e96a1148d974a58cc476d22aa741a347fcfa24a9db527f3ea30c2ea724e99cf",
+    "size_bytes": 4430,
+    "source_key": "code22"
+  },
+  {
+    "file": "analysis/hypotheses.json",
+    "sha256": "b7ed9a905ce24563d4b81b79ff0723a81b298dcffd0321000d91dc07738ef7b2",
+    "size_bytes": 17365,
+    "source_key": "code23"
+  },
+  {
+    "file": "analysis/haplotypes/phased_haplotypes.csv.gz",
+    "sha256": "8f5d374102f24bf67ca581563198c74e8cb02693d1a751bd76a15c6af13bd7b8",
+    "size_bytes": 3759,
+    "source_key": "code23"
+  },
+  {
+    "file": "analysis/haplotypes/phased_signature_evidence.csv.gz",
+    "sha256": "27b83a3cd7e4729bb60157287b07f22417ef448079c6b0f36a7d4225ccb3ef9a",
+    "size_bytes": 617922,
+    "source_key": "code23"
+  },
+  {
+    "file": "analysis/repeat/repeat_exact117_hit_projection.csv.gz",
+    "sha256": "cf1d9656254195b4deb676a12d79de720700182e2ddf5dfa875cdbfa5d768cd9",
+    "size_bytes": 516,
+    "source_key": "code23"
+  },
+  {
+    "file": "analysis/accessions/PI642998/exact_hit_trace.csv.gz",
+    "sha256": "2da4049d764df5fe921aef5a6a6882428593cde0a1b579ff03c582efa8706863",
+    "size_bytes": 809,
+    "source_key": "code24"
+  },
+  {
+    "file": "source_snapshots/code19/target_sequences.csv.gz",
+    "sha256": "d2a375ca6406899aab7ac3d7aab1991d568d26dc0edeb8cc96ca312c974add89",
+    "size_bytes": 90002,
+    "source_key": "code26"
+  },
+  {
+    "file": "source_snapshots/code24/analysis/case_evidence_ledger.csv.gz",
+    "sha256": "7e0ac7bcf6014251acbb982232e5afddad5ca79f86e571c0159712d9391a78ee",
+    "size_bytes": 3275,
+    "source_key": "code26"
+  },
+  {
+    "file": "source_snapshots/code24/analysis/all_baselines.csv.gz",
+    "sha256": "f7a244a88b48744373ac6a421d58035da50cfcb26ce43ab34fa03cb826577162",
+    "size_bytes": 13578,
+    "source_key": "code26"
+  }
+]

@@ -1,0 +1,266 @@
+{
+  "schema": "CODE25_TARGET_PANEL_V1",
+  "selection": "Every one of the 37 distinct states in the CODE24 selected-discrepancy target panel; no outcome-dependent target selection. Not a representative random genomic panel.",
+  "source_frozen_code20_sha256": "8761626a5d1319cecb2a00bcc7b814b14a9331026d648712ff9e3583038ce76d",
+  "states": [
+    {
+      "state_id": "S034252928c3470e945d651f50679f93ba8365770f84e516489687a7578ba7f2d",
+      "pair_id": "P000233",
+      "group_id": "FG000021",
+      "sequence": "CCTATAGATCGCAAGATTAGACAAAGAACGGGCGCGAACTGCTTACGATCCGATGACGGGACGCGTTCCGGATAAAATATCG",
+      "span_length": 82
+    },
+    {
+      "state_id": "S114d8db53eeba9ca43460f12823dbbb37cca27a9d22b4ec271d94dfd37a9ba5b",
+      "pair_id": "P000216",
+      "group_id": "FG000157",
+      "sequence": "ACGCTAGACAAGGTCATCATAGAGCTCCAGTCCTCGGTTAACTCCATCAATAGGCAGCTCTCTAACCAGAACGCCGTTATAC",
+      "span_length": 82
+    },
+    {
+      "state_id": "S15b2f2d95d304e014a45fe648ade41063e81630069c9cd33402881ebe6fac4ad",
+      "pair_id": "P000154",
+      "group_id": "FG000209",
+      "sequence": "ATGGATTCAGGAGGAACCTACCGGTGCAAAAATAAAGTGACCAAAGCAAGTCGGGCGGTGACGCCGTTTTGCTCGCTGCTTG",
+      "span_length": 82
+    },
+    {
+      "state_id": "S223420f90c18497d95876a8b4180c688b7ea7a1067b02f6da82f9d372ef75330",
+      "pair_id": "P000535",
+      "group_id": "FG000357",
+      "sequence": "ATTAGTAGTCAAATTCTAATGTTTAGCCATTTTGTAAAATAGAAAACTTTTTAAAAAAGAACAGGTCCACAACAGCCTTGCT",
+      "span_length": 82
+    },
+    {
+      "state_id": "S27ff7c1856657688a0e6d523ca94f7305fce2f03e26b1fa99f6d327e1a0e01c4",
+      "pair_id": "P000321",
+      "group_id": "FG000409",
+      "sequence": "GCTGGTTCTGATTCTGTTGCTGATTCTGATTTTGGTTCTGCTGCATGTTGTTCATAATATGGGCCATCCCTTGCATCAACTG",
+      "span_length": 82
+    },
+    {
+      "state_id": "S2de047315a4d7458cbf7572a3576178fd1bffc54158d02e07306595cc141581a",
+      "pair_id": "P000353",
+      "group_id": "FG000465",
+      "sequence": "ACCCACACGGCCAGTTTCAGGGGTGCGGTGGGTGGGCGCCACACTACGGGAGAATCGAAATTTCTCGAGTGTCAACGGCTTC",
+      "span_length": 82
+    },
+    {
+      "state_id": "S380cb8f376fdd4fe90bdc7666eddc642f56977bcd0cf0c561c1196de0850b62c",
+      "pair_id": "P000532",
+      "group_id": "FG000565",
+      "sequence": "AAATATCGGCAAACTAGATCATCGGCCAGAGAGAGCACACCATCTTTCTGAATATGTGGTTAGACAAGTTCATCTTATGTGG",
+      "span_length": 82
+    },
+    {
+      "state_id": "S4d668d4e8f3386c637311c4158a5cc3c60b13cdd99907f45c71a1076e8719af1",
+      "pair_id": "P000147",
+      "group_id": "FG000737",
+      "sequence": "CTAGAAGTAGTTCCCTTGCTTGACTATTTTGGTTTGTGTAACCTTGTTAGTCACATTGCTTAGTTTGTGTAGCTAAGATCGG",
+      "span_length": 82
+    },
+    {
+      "state_id": "S4d900f4c00a04dc8742872555297083e2a3931ae7a63f065a043fa012ea8ce7c",
+      "pair_id": "P000368",
+      "group_id": "FG000741",
+      "sequence": "TTAGCGAATACAAAAATCAAAAGAAAAGAGCGCCATTTAGTCTGGCAACTGTTGTTAGCATCCGGTCTATAAATACAGAGCC",
+      "span_length": 82
+    },
+    {
+      "state_id": "S532777a457821e8fc070a798ae57cd97552b14529bdf3f75f86cccb06795e78b",
+      "pair_id": "P000522",
+      "group_id": "FG000785",
+      "sequence": "GGTTGGAAACGAGTCTTTGGAGATGAGAGAAACCTTGCTAGGGTATAGTTCTAGCCCTGCCATGAGTGCCATGTTAGCGGTA",
+      "span_length": 82
+    },
+    {
+      "state_id": "S55960250bf0e309173dc017b3aa003149126446d68c543115e845cbf2e1b9166",
+      "pair_id": "P000325",
+      "group_id": "FG000821",
+      "sequence": "GGGGGTCCAGGAAAAATGCTCGGATTTTCTGAGTAACCTATACAGAGGTAGTCCTTTCTCCCCGAGGCGGGAGATGAAACGA",
+      "span_length": 82
+    },
+    {
+      "state_id": "S5800f5c00b6fcd31711908a077d8bd1a173d014590387c564a0c5fbbf32a240c",
+      "pair_id": "P000477",
+      "group_id": "FG000853",
+      "sequence": "AAAGGCGGGGGGTCTGGTGGAGGCGGGCTGGAGCTCGCGGCTTTCAGCGACGCGGACATGGCAGGCGATGTCGATGGACGAC",
+      "span_length": 82
+    },
+    {
+      "state_id": "S6a70e481a1417bc1396d6b145f8a84d3495cfd39b93a294d99245c86907d6763",
+      "pair_id": "P000508",
+      "group_id": "FG001065",
+      "sequence": "TCCTCCAATGCAAACTTGCTTCGAGCTCAGGAAACTCCTGCAATGCAAACTTGCTTCGAGCACCACCTGTTGGTTGCCTTCA",
+      "span_length": 82
+    },
+    {
+      "state_id": "S6c8fdb7bfaef45011967e878e8bd6052c518c36fcc42b742b711b78532fa6e66",
+      "pair_id": "P000083",
+      "group_id": "FG001101",
+      "sequence": "CAAAACCCTAGCTCTAACTCGCCGAGCTCGCGCCGCCGCCGTTCGAACCCCGCCGCCGTTGGCCTTCTCCTCGCCGTCGTCA",
+      "span_length": 82
+    },
+    {
+      "state_id": "S6fa9a2e2aed55fb209d7712db5701b908c91f0033c43e9aea43766e7a1df7571",
+      "pair_id": "P000188",
+      "group_id": "FG001137",
+      "sequence": "AAAAGTAGGATGCAACTATCAGCAGTGATTCGTTCCTGTGCATATCGGCAATGGATAGCCTAATGCATTAGGCTAGCTTCCT",
+      "span_length": 82
+    },
+    {
+      "state_id": "S765d02d382b66b18e42e359285ece9e5bb75ebe71fccdae29faa07b78d656a2a",
+      "pair_id": "P000249",
+      "group_id": "FG001185",
+      "sequence": "GTTTTGAACCCGCGGTCCAAGGCGCATTCGTGGTTTGCGTTTTCCCAGTTTTGAAAGCGTATTCTCGGCGGCTGAGTTCAAA",
+      "span_length": 82
+    },
+    {
+      "state_id": "S881098d02c361ec7277df41a757cab3cea3bc28eba5067f3d626d71ad862d6f6",
+      "pair_id": "P000172",
+      "group_id": "FG001337",
+      "sequence": "TAAATTTCCTCCTTTAATTTCAGAGATAGAGACGTTAATAAGCGTTTCCTCTCTGCAAGTCCAACCACCTACACATGCATGC",
+      "span_length": 82
+    },
+    {
+      "state_id": "S8c18747257a53913be4391d21270c492236dd58dece4ae050ac05a94a4f8d123",
+      "pair_id": "P000567",
+      "group_id": "FG001357",
+      "sequence": "CAAACTGGGAGGTGGTCGGGACGTGGAGGACCCAAACATCGCCGATGGCAACTCGATCACGGACAAAGTGTAGATCGATCTC",
+      "span_length": 82
+    },
+    {
+      "state_id": "S916343315f1b706992b2d03de81f352afe6a7d0e9a39d432a53e849aebd8f209",
+      "pair_id": "P000119",
+      "group_id": "FG001425",
+      "sequence": "CACAATCACTGAGGAGCTGCTCCCACCATATCAGAGCATATCCTTCAAACTTTAGAGATGCCATTGCCAGTTTCTTCTATTC",
+      "span_length": 82
+    },
+    {
+      "state_id": "S9255536e1fc50ed10e3e41444cec4c563426ee4b8685bc2a8b78eeebf8c5a142",
+      "pair_id": "P000431",
+      "group_id": "FG001433",
+      "sequence": "GAATCAGACACGAGATCGCGATGCGTTGGCTGCTACAGTTTCCATTTGTACCACCCCCCACTGCCGTGCATGCATGCATGCC",
+      "span_length": 82
+    },
+    {
+      "state_id": "S92a799a6039abb5cab5620f36ac5904183b33ee149c3f9d1791cbaee92d2bbb1",
+      "pair_id": "P000239",
+      "group_id": "FG001437",
+      "sequence": "CGAACTTGGTTTGTCAGTTGCTGGTCATGGTCGCAACAGCCAACTGGAATTGGTGTTGCGATTTTGGTGAAACTGTTTGAGG",
+      "span_length": 82
+    },
+    {
+      "state_id": "S98c15c54ace840ced7878297ba7b93ad11ff9dcf3e879cdbf41db0433f4e0615",
+      "pair_id": "P000554",
+      "group_id": "G000101",
+      "sequence": "CCTTCAGATTTTAGTGCAATACTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTTAAAAAAAAATCAGAAGTTTCTCATAGTCCAGCTCCTTAA",
+      "span_length": 97
+    },
+    {
+      "state_id": "S99160099e39453282718166026b81a59199f36a072062f132f5b38dc7e49142f",
+      "pair_id": "P000262",
+      "group_id": "FG001493",
+      "sequence": "CCAATATACAACAACGAAGCCAGCGCCCGTGCTACATGTGCTCCAGCCCGGGCTACCGGGCATGGATGTACTAAGCCCCCCA",
+      "span_length": 82
+    },
+    {
+      "state_id": "Sa72c47d37a2c98192f24c8f2749e02060956af8562291b3790dbef0a93200d16",
+      "pair_id": "P000531",
+      "group_id": "G000105",
+      "sequence": "AACGGCGGCGGCGCGAGCTCGGCGAGTTAGAGCTAGGGTTTTGCGCGGCTCAGAGTGGCAGCTAGGGCTTCTAGGGACGCGT",
+      "span_length": 82
+    },
+    {
+      "state_id": "Sa90a4275a0fd257df81bf96ebe0395f89b0ff9d3a1c36006b4eca2f3167af780",
+      "pair_id": "P000416",
+      "group_id": "FG001625",
+      "sequence": "GTCGGGTCCCCTCGCATCATCCCGGATGAGTTTTTCTGCGTCGTCGGCGTCGGCGTAGTTTTTAGCCGTGGCAAGAAGCTCA",
+      "span_length": 82
+    },
+    {
+      "state_id": "Saefd10412e86b52fe058fb7ddd97088f0c9b5d951a9d82dc9cb597428ed074b3",
+      "pair_id": "P000568",
+      "group_id": "FG001685",
+      "sequence": "ACTTTTTCTCTACACCCCTTTGGTTCACATGAAAGATTAGGAAAGATTTCATGCAATTGCACTCCTATGACTTGATTCCACA",
+      "span_length": 82
+    },
+    {
+      "state_id": "Sc0d58fc6e0993f86fba8fb86d7fdccbee8b330ac5594bdca79bcd61037dc7b88",
+      "pair_id": "P000040",
+      "group_id": "FG001853",
+      "sequence": "GGTGACCGGAGGTGGGGTAACAGTCGACAAGGAGTATGGGATGACAACCGTGGACCTTAACAATAGTGGGTTCAAAGGCGAA",
+      "span_length": 82
+    },
+    {
+      "state_id": "Sc53fd9a6d4a5df51611cd214c5439e9628fbda00967bac16d223f8d0ab6896f1",
+      "pair_id": "P000246",
+      "group_id": "FG001893",
+      "sequence": "ACAGAAGAATGGTTGAAGGGTGATGATTCGAGCTACCTCAGGAGACAGCTCAGCTTCTGTTAGTCATTCATAACTCAGAATA",
+      "span_length": 82
+    },
+    {
+      "state_id": "Sc64dca8a12c121945ee3dc529822be69c7c382a83918118da58a85adb18835ee",
+      "pair_id": "P000336",
+      "group_id": "FG001913",
+      "sequence": "CCGTCACGACCGCACCACGTCCTCGGCACCGCCCCCCACACCCGCCGCCGTCGAGCCTAGATGCCGCCGAGCCCTGCCACGC",
+      "span_length": 82
+    },
+    {
+      "state_id": "Sd95dd78c684ef6eb3e933d4b3884e62acdd6bc02e6c9bdde1d11563ffe17afb1",
+      "pair_id": "P000502",
+      "group_id": "FG002129",
+      "sequence": "AAAATGATACACTTAGAAGTAGTCCAAGTTACCTTTATGCTTATGCACAATATCACAGAACACTTAGCTTAGTGGCTAACTG",
+      "span_length": 82
+    },
+    {
+      "state_id": "Sd9681540fe62403e6acb7ac1a975381ffbbe17186e2e993c736f225437479798",
+      "pair_id": "P000369",
+      "group_id": "FG002137",
+      "sequence": "CCGTGCTCACGGGCTCGGGCTGCATGTCCAGGTATAGTGGCAGGTGGCATTGGTCTGACTTATCAGTTCCTTTCAGATTTAA",
+      "span_length": 82
+    },
+    {
+      "state_id": "Sdc2bb95c2b153325ab11d5e62f496258cf6f1c63a156639c1a850f6b36701caf",
+      "pair_id": "P000592",
+      "group_id": "FG002169",
+      "sequence": "ATCAATCTTTATTAACGAAGATCCGAATCCAGAGCGTAGTGCTCTACTTCTCTAATTGCTATCTAATCGACCTCTAAACTTG",
+      "span_length": 82
+    },
+    {
+      "state_id": "Se04ba852a5139d58a712f166fbcbb3e599c847fafb7de77e57c291c8b2b1d090",
+      "pair_id": "P000375",
+      "group_id": "FG002205",
+      "sequence": "GGGGTCTTCACATGGATCATGCTCAAAGCTCAGCTCAAGGTGGGCCCATAGTGGGGTTGCCCGACCCCCTATGTGCGGCCTC",
+      "span_length": 82
+    },
+    {
+      "state_id": "Seb09326eb95c798ee0adceb37c02d7f6239158d3406d1ac1c7e89bdeb60e2117",
+      "pair_id": "P000387",
+      "group_id": "FG002297",
+      "sequence": "AAAAGCTAGATTACCCCCTTGCTGTCCAGAACAGCTTATGAACCCTTAATTAATTATTTGATGACATAGCCAAGACATATTT",
+      "span_length": 82
+    },
+    {
+      "state_id": "Seb2b8c2535d27c973352422172bf95afd65b6d0473bc09b9033641c7f67e6715",
+      "pair_id": "P000576",
+      "group_id": "FG002301",
+      "sequence": "ACCACTGGTTAATCGGCCAGAGTTGCCGATGGAACTATGTCAGCTGAAAAATTAGCAGAGGTAATTATAAGATCAGGAAAAT",
+      "span_length": 82
+    },
+    {
+      "state_id": "Sf2339beb8de84eaca712e18a23831d478d40141b2ed344b186edfeda136ac31e",
+      "pair_id": "P000347",
+      "group_id": "FG002365",
+      "sequence": "CTTTCAGCAATCAGTTCTCAGACAACGCAGAGGTGTTGAGGTAACTTTGTCTGCATTCTTCAGAGCATCCTCTGTTTTTGTC",
+      "span_length": 82
+    },
+    {
+      "state_id": "Sfe49558c9e8bf58f9dd682d2a1970a95151b14b76dc9724f5ca72dd80ba38487",
+      "pair_id": "P000551",
+      "group_id": "FG002461",
+      "sequence": "TCGACAGATCCTAAACTCTATACCATACATGCGAGACATAGACCTAGTGAAGGCATTGGTAAGTTCATACCACCTATTGCTA",
+      "span_length": 82
+    }
+  ]
+}
